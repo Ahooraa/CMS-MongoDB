@@ -1,2 +1,2 @@
 # CMS-MongoDB
-A content Management system 
+A Content Management System
