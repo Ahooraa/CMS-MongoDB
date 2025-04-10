@@ -1,0 +1,971 @@
+[{
+  "_id": {
+    "$oid": "67ea2b41a142c7e7b2780d28"
+  },
+  "username": "johndoe",
+  "email": "johndoe@example.com",
+  "password": "securePassword123",
+  "role": "admin",
+  "contact_info": {
+    "phone": "+1234567890",
+    "address": {
+      "country": "USA",
+      "province": "California",
+      "city": "San Francisco"
+    }
+  },
+  "submission_age": 28,
+  "age": 30,
+  "birth_date": {
+    "$date": "1994-03-15T00:00:00.000Z"
+  },
+  "last_login": {
+    "$date": "2025-03-30T18:45:00.000Z"
+  },
+  "is_active": true,
+  "join_date": {
+    "$date": "2022-06-01T12:00:00.000Z"
+  },
+  "admin_info": {
+    "admin_level": 3,
+    "permissions": [
+      "manage_users",
+      "edit_settings"
+    ]
+  },
+  "editor_info": {
+    "editing_rights": [
+      "news",
+      "tech"
+    ],
+    "assigned_articles": [
+      {
+        "$oid": "5f50c31f1c9d440000a1b2c3"
+      },
+      {
+        "$oid": "5f50c31f1c9d440000a1b2c4"
+      }
+    ]
+  },
+  "reader_info": {
+    "favorite_articles": [
+      {
+        "$oid": "5f50c31f1c9d440000a1b2c5"
+      },
+      {
+        "$oid": "5f50c31f1c9d440000a1b2c6"
+      }
+    ]
+  },
+  "createdAt": {
+    "$date": "2025-03-30T12:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-31T08:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3bb2f728e587d784b60ff"
+  },
+  "username": "alice_wonder",
+  "email": "alice.wonder@example.com",
+  "password": "AlicePass!2025",
+  "role": "reader",
+  "contact_info": {
+    "phone": "555-0101",
+    "address": {
+      "country": "USA",
+      "province": "California",
+      "city": "Los Angeles"
+    }
+  },
+  "age": 28,
+  "birth_date": {
+    "$date": "1997-04-12T00:00:00.000Z"
+  },
+  "join_date": {
+    "$date": "2023-01-15T10:30:00.000Z"
+  },
+  "is_active": true,
+  "createdAt": {
+    "$date": "2023-01-15T10:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-20T15:45:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3bb2f728e587d784b6100"
+  },
+  "username": "bob_builder",
+  "email": "bob.builder@example.com",
+  "password": "BuildItStrong#99",
+  "role": "editor",
+  "contact_info": {
+    "phone": "555-0202",
+    "address": {
+      "country": "USA",
+      "province": "Texas",
+      "city": "Houston"
+    }
+  },
+  "age": 35,
+  "birth_date": {
+    "$date": "1988-02-05T00:00:00.000Z"
+  },
+  "join_date": {
+    "$date": "2022-11-10T09:00:00.000Z"
+  },
+  "is_active": true,
+  "editor_info": {
+    "editing_rights": [
+      "articles",
+      "comments"
+    ],
+    "assigned_articles": []
+  },
+  "createdAt": {
+    "$date": "2022-11-10T09:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-15T12:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3bb2f728e587d784b6101"
+  },
+  "username": "charlie_chaplin",
+  "email": "charlie.chaplin@example.com",
+  "password": "SilentFilm#88",
+  "role": "reader",
+  "age": 42,
+  "birth_date": {
+    "$date": "1983-06-16T00:00:00.000Z"
+  },
+  "join_date": {
+    "$date": "2021-07-21T14:20:00.000Z"
+  },
+  "is_active": false,
+  "createdAt": {
+    "$date": "2021-07-21T14:20:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-05T08:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3bb2f728e587d784b6102"
+  },
+  "username": "diana_prince",
+  "email": "diana.prince@example.com",
+  "password": "WonderWoman2025!",
+  "role": "admin",
+  "contact_info": {
+    "phone": "555-0303",
+    "address": {
+      "country": "USA",
+      "province": "New York",
+      "city": "New York"
+    }
+  },
+  "age": 32,
+  "birth_date": {
+    "$date": "1991-12-25T00:00:00.000Z"
+  },
+  "join_date": {
+    "$date": "2023-03-01T11:15:00.000Z"
+  },
+  "is_active": true,
+  "admin_info": {
+    "admin_level": 2,
+    "permissions": [
+      "manage_users",
+      "edit_articles"
+    ]
+  },
+  "createdAt": {
+    "$date": "2023-03-01T11:15:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-04-10T16:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3bb2f728e587d784b6103"
+  },
+  "username": "edward_scissor",
+  "email": "edward.scissor@example.com",
+  "password": "CuttingEdge#77",
+  "role": "editor",
+  "age": 29,
+  "birth_date": {
+    "$date": "1994-09-10T00:00:00.000Z"
+  },
+  "join_date": {
+    "$date": "2023-02-18T13:45:00.000Z"
+  },
+  "is_active": true,
+  "editor_info": {
+    "editing_rights": [
+      "articles"
+    ],
+    "assigned_articles": []
+  },
+  "createdAt": {
+    "$date": "2023-02-18T13:45:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-01T09:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3bb2f728e587d784b6104"
+  },
+  "username": "fiona_apple",
+  "email": "fiona.apple@example.com",
+  "password": "FruitSalad!55",
+  "role": "reader",
+  "contact_info": {
+    "phone": "555-0404",
+    "address": {
+      "country": "Canada",
+      "province": "Ontario",
+      "city": "Toronto"
+    }
+  },
+  "age": 26,
+  "birth_date": {
+    "$date": "1999-03-22T00:00:00.000Z"
+  },
+  "join_date": {
+    "$date": "2023-05-05T12:00:00.000Z"
+  },
+  "is_active": true,
+  "reader_info": {
+    "favorite_articles": []
+  },
+  "createdAt": {
+    "$date": "2023-05-05T12:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-10T10:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3bb2f728e587d784b6105"
+  },
+  "username": "george_wash",
+  "email": "george.wash@example.com",
+  "password": "Liberty123!",
+  "role": "admin",
+  "age": 45,
+  "birth_date": {
+    "$date": "1978-01-30T00:00:00.000Z"
+  },
+  "join_date": {
+    "$date": "2020-12-01T08:00:00.000Z"
+  },
+  "is_active": true,
+  "admin_info": {
+    "admin_level": 3,
+    "permissions": [
+      "manage_users",
+      "edit_articles",
+      "delete_comments"
+    ]
+  },
+  "createdAt": {
+    "$date": "2020-12-01T08:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-20T14:15:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3bb2f728e587d784b6106"
+  },
+  "username": "hannah_montana",
+  "email": "hannah.m@example.com",
+  "password": "BestOfBothWorlds!",
+  "role": "reader",
+  "contact_info": {
+    "phone": "555-0505",
+    "address": {
+      "country": "USA",
+      "province": "Florida",
+      "city": "Miami"
+    }
+  },
+  "age": 21,
+  "birth_date": {
+    "$date": "2004-07-07T00:00:00.000Z"
+  },
+  "join_date": {
+    "$date": "2023-06-12T17:30:00.000Z"
+  },
+  "is_active": true,
+  "createdAt": {
+    "$date": "2023-06-12T17:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-12T17:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3bb2f728e587d784b6107"
+  },
+  "username": "ivan_ivanov",
+  "email": "ivan.ivanov@example.ru",
+  "password": "PassIvan2025",
+  "role": "reader",
+  "contact_info": {
+    "phone": "+7-495-1234567",
+    "address": {
+      "country": "Russia",
+      "province": "Moscow",
+      "city": "Moscow"
+    }
+  },
+  "age": 34,
+  "birth_date": {
+    "$date": "1991-11-11T00:00:00.000Z"
+  },
+  "join_date": {
+    "$date": "2022-09-05T10:00:00.000Z"
+  },
+  "is_active": true,
+  "createdAt": {
+    "$date": "2022-09-05T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-05T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3bb2f728e587d784b6108"
+  },
+  "username": "julia_roberts",
+  "email": "julia.roberts@example.com",
+  "password": "PrettyWoman#2025",
+  "role": "editor",
+  "age": 38,
+  "birth_date": {
+    "$date": "1985-10-28T00:00:00.000Z"
+  },
+  "join_date": {
+    "$date": "2021-05-18T11:25:00.000Z"
+  },
+  "is_active": true,
+  "editor_info": {
+    "editing_rights": [
+      "articles",
+      "media"
+    ],
+    "assigned_articles": []
+  },
+  "createdAt": {
+    "$date": "2021-05-18T11:25:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-10T12:45:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3bb2f728e587d784b6109"
+  },
+  "username": "kevin_spacey",
+  "email": "kevin.spacey@example.com",
+  "password": "HouseOfCards!33",
+  "role": "reader",
+  "age": 50,
+  "birth_date": {
+    "$date": "1973-05-15T00:00:00.000Z"
+  },
+  "join_date": {
+    "$date": "2020-03-12T07:45:00.000Z"
+  },
+  "is_active": false,
+  "createdAt": {
+    "$date": "2020-03-12T07:45:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2021-12-01T09:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3bb2f728e587d784b610a"
+  },
+  "username": "laura_croft",
+  "email": "laura.croft@example.com",
+  "password": "TombRaider#1",
+  "role": "editor",
+  "age": 31,
+  "birth_date": {
+    "$date": "1992-08-22T00:00:00.000Z"
+  },
+  "join_date": {
+    "$date": "2023-04-07T13:30:00.000Z"
+  },
+  "is_active": true,
+  "editor_info": {
+    "editing_rights": [
+      "articles"
+    ],
+    "assigned_articles": []
+  },
+  "createdAt": {
+    "$date": "2023-04-07T13:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-20T11:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3bb2f728e587d784b610b"
+  },
+  "username": "michael_scott",
+  "email": "michael.scott@dundermifflin.com",
+  "password": "WorldsBestBoss!1",
+  "role": "admin",
+  "age": 46,
+  "birth_date": {
+    "$date": "1977-03-15T00:00:00.000Z"
+  },
+  "join_date": {
+    "$date": "2019-08-15T08:15:00.000Z"
+  },
+  "is_active": true,
+  "admin_info": {
+    "admin_level": 1,
+    "permissions": [
+      "manage_users"
+    ]
+  },
+  "createdAt": {
+    "$date": "2019-08-15T08:15:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-10T14:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3bb2f728e587d784b610c"
+  },
+  "username": "nina_simon",
+  "email": "nina.simon@example.com",
+  "password": "FeelingGood#88",
+  "role": "reader",
+  "contact_info": {
+    "phone": "555-0606",
+    "address": {
+      "country": "USA",
+      "province": "Illinois",
+      "city": "Chicago"
+    }
+  },
+  "age": 40,
+  "birth_date": {
+    "$date": "1983-02-09T00:00:00.000Z"
+  },
+  "join_date": {
+    "$date": "2022-01-20T10:00:00.000Z"
+  },
+  "is_active": true,
+  "reader_info": {
+    "favorite_articles": []
+  },
+  "createdAt": {
+    "$date": "2022-01-20T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2022-12-15T09:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3bb2f728e587d784b610d"
+  },
+  "username": "oscar_wilde",
+  "email": "oscar.wilde@example.co.uk",
+  "password": "DorianGray!77",
+  "role": "reader",
+  "age": 47,
+  "birth_date": {
+    "$date": "1976-07-16T00:00:00.000Z"
+  },
+  "join_date": {
+    "$date": "2021-10-10T12:10:00.000Z"
+  },
+  "is_active": true,
+  "createdAt": {
+    "$date": "2021-10-10T12:10:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-03T10:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3bb2f728e587d784b610e"
+  },
+  "username": "pam_beesly",
+  "email": "pam.beesly@dundermifflin.com",
+  "password": "ArtLover#22",
+  "role": "editor",
+  "age": 33,
+  "birth_date": {
+    "$date": "1990-05-26T00:00:00.000Z"
+  },
+  "join_date": {
+    "$date": "2020-06-18T09:40:00.000Z"
+  },
+  "is_active": true,
+  "editor_info": {
+    "editing_rights": [
+      "articles",
+      "media"
+    ],
+    "assigned_articles": []
+  },
+  "createdAt": {
+    "$date": "2020-06-18T09:40:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-25T08:50:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3bb2f728e587d784b610f"
+  },
+  "username": "quentin_tarantino",
+  "email": "quentin.t@example.com",
+  "password": "CinemaScope#55",
+  "role": "reader",
+  "age": 58,
+  "birth_date": {
+    "$date": {
+      "$numberLong": "-150422400000"
+    }
+  },
+  "join_date": {
+    "$date": "2018-11-11T15:20:00.000Z"
+  },
+  "is_active": true,
+  "createdAt": {
+    "$date": "2018-11-11T15:20:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-11T16:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3bb2f728e587d784b6110"
+  },
+  "username": "rachel_green",
+  "email": "rachel.green@example.com",
+  "password": "Fashionista!99",
+  "role": "reader",
+  "contact_info": {
+    "phone": "555-0707",
+    "address": {
+      "country": "USA",
+      "province": "New York",
+      "city": "New York"
+    }
+  },
+  "age": 29,
+  "birth_date": {
+    "$date": "1994-08-08T00:00:00.000Z"
+  },
+  "join_date": {
+    "$date": "2023-03-22T10:05:00.000Z"
+  },
+  "is_active": true,
+  "reader_info": {
+    "favorite_articles": []
+  },
+  "createdAt": {
+    "$date": "2023-03-22T10:05:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-04-01T12:15:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3bb2f728e587d784b6111"
+  },
+  "username": "samwise_gamgee",
+  "email": "samwise.g@example.com",
+  "password": "Fellowship#123",
+  "role": "reader",
+  "age": 37,
+  "birth_date": {
+    "$date": "1986-04-06T00:00:00.000Z"
+  },
+  "join_date": {
+    "$date": "2022-04-04T11:00:00.000Z"
+  },
+  "is_active": true,
+  "createdAt": {
+    "$date": "2022-04-04T11:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-14T09:45:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3bb2f728e587d784b6112"
+  },
+  "username": "tina_fey",
+  "email": "tina.fey@example.com",
+  "password": "MeanGirls#1",
+  "role": "editor",
+  "age": 48,
+  "birth_date": {
+    "$date": "1975-06-18T00:00:00.000Z"
+  },
+  "join_date": {
+    "$date": "2021-02-14T08:20:00.000Z"
+  },
+  "is_active": true,
+  "editor_info": {
+    "editing_rights": [
+      "articles"
+    ],
+    "assigned_articles": []
+  },
+  "createdAt": {
+    "$date": "2021-02-14T08:20:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-30T10:10:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3bb2f728e587d784b6113"
+  },
+  "username": "ursula_le_guin",
+  "email": "ursula.leguin@example.com",
+  "password": "Earthsea#88",
+  "role": "reader",
+  "age": 65,
+  "birth_date": {
+    "$date": {
+      "$numberLong": "-353376000000"
+    }
+  },
+  "join_date": {
+    "$date": "2017-07-07T14:30:00.000Z"
+  },
+  "is_active": true,
+  "createdAt": {
+    "$date": "2017-07-07T14:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-01T13:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3bb2f728e587d784b6114"
+  },
+  "username": "victor_frankenstein",
+  "email": "victor.frank@example.com",
+  "password": "MonsterMaker#22",
+  "role": "admin",
+  "age": 39,
+  "birth_date": {
+    "$date": "1984-12-01T00:00:00.000Z"
+  },
+  "join_date": {
+    "$date": "2022-08-08T12:00:00.000Z"
+  },
+  "is_active": true,
+  "admin_info": {
+    "admin_level": 2,
+    "permissions": [
+      "manage_users",
+      "edit_articles"
+    ]
+  },
+  "createdAt": {
+    "$date": "2022-08-08T12:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-04-05T14:45:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3bb2f728e587d784b6115"
+  },
+  "username": "wanda_maximoff",
+  "email": "wanda.maximoff@example.com",
+  "password": "ScarletMagic#7",
+  "role": "reader",
+  "contact_info": {
+    "phone": "555-0808",
+    "address": {
+      "country": "USA",
+      "province": "Georgia",
+      "city": "Atlanta"
+    }
+  },
+  "age": 30,
+  "birth_date": {
+    "$date": "1993-11-11T00:00:00.000Z"
+  },
+  "join_date": {
+    "$date": "2023-01-25T15:00:00.000Z"
+  },
+  "is_active": true,
+  "reader_info": {
+    "favorite_articles": []
+  },
+  "createdAt": {
+    "$date": "2023-01-25T15:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-30T11:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3bb2f728e587d784b6116"
+  },
+  "username": "xander_harris",
+  "email": "xander.harris@example.com",
+  "password": "MysticFalls#3",
+  "role": "reader",
+  "age": 27,
+  "birth_date": {
+    "$date": "1996-05-05T00:00:00.000Z"
+  },
+  "join_date": {
+    "$date": "2023-04-21T14:10:00.000Z"
+  },
+  "is_active": true,
+  "createdAt": {
+    "$date": "2023-04-21T14:10:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-10T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3bb2f728e587d784b6117"
+  },
+  "username": "yolanda_vasquez",
+  "email": "yolanda.v@example.com",
+  "password": "Sunshine#2025",
+  "role": "editor",
+  "contact_info": {
+    "phone": "555-0909",
+    "address": {
+      "country": "USA",
+      "province": "Arizona",
+      "city": "Phoenix"
+    }
+  },
+  "age": 36,
+  "birth_date": {
+    "$date": "1987-08-08T00:00:00.000Z"
+  },
+  "join_date": {
+    "$date": "2022-05-15T10:45:00.000Z"
+  },
+  "is_active": true,
+  "editor_info": {
+    "editing_rights": [
+      "articles",
+      "comments"
+    ],
+    "assigned_articles": []
+  },
+  "createdAt": {
+    "$date": "2022-05-15T10:45:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-20T12:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3bb2f728e587d784b6118"
+  },
+  "username": "zack_morris",
+  "email": "zack.morris@example.com",
+  "password": "SavedByTheBell#1",
+  "role": "reader",
+  "age": 25,
+  "birth_date": {
+    "$date": "1998-01-01T00:00:00.000Z"
+  },
+  "join_date": {
+    "$date": "2023-02-28T09:00:00.000Z"
+  },
+  "is_active": true,
+  "createdAt": {
+    "$date": "2023-02-28T09:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-10T10:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3bb2f728e587d784b6119"
+  },
+  "username": "aaron_smith",
+  "email": "aaron.smith@example.com",
+  "password": "Password123!",
+  "role": "reader",
+  "contact_info": {
+    "phone": "555-1010",
+    "address": {
+      "country": "USA",
+      "province": "Washington",
+      "city": "Seattle"
+    }
+  },
+  "age": 30,
+  "birth_date": {
+    "$date": "1993-03-03T00:00:00.000Z"
+  },
+  "join_date": {
+    "$date": "2023-03-10T11:00:00.000Z"
+  },
+  "is_active": true,
+  "createdAt": {
+    "$date": "2023-03-10T11:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-04-01T09:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3bb2f728e587d784b611a"
+  },
+  "username": "betty_boop",
+  "email": "betty.boop@example.com",
+  "password": "BoopBoop#88",
+  "role": "editor",
+  "contact_info": {
+    "phone": "555-2020",
+    "address": {
+      "country": "USA",
+      "province": "Ohio",
+      "city": "Cleveland"
+    }
+  },
+  "age": 28,
+  "birth_date": {
+    "$date": "1995-09-15T00:00:00.000Z"
+  },
+  "join_date": {
+    "$date": "2023-04-15T12:00:00.000Z"
+  },
+  "is_active": true,
+  "editor_info": {
+    "editing_rights": [
+      "articles"
+    ],
+    "assigned_articles": []
+  },
+  "createdAt": {
+    "$date": "2023-04-15T12:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-01T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3bb2f728e587d784b611b"
+  },
+  "username": "carl_jones",
+  "email": "carl.jones@example.com",
+  "password": "JonesPass#77",
+  "role": "reader",
+  "contact_info": {
+    "phone": "555-3030",
+    "address": {
+      "country": "Canada",
+      "province": "Quebec",
+      "city": "Montreal"
+    }
+  },
+  "age": 33,
+  "birth_date": {
+    "$date": "1990-12-12T00:00:00.000Z"
+  },
+  "join_date": {
+    "$date": "2022-12-01T08:00:00.000Z"
+  },
+  "is_active": true,
+  "createdAt": {
+    "$date": "2022-12-01T08:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-15T09:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3bb2f728e587d784b611c"
+  },
+  "username": "derek_white",
+  "email": "derek.white@example.com",
+  "password": "WhiteDerek#2025",
+  "role": "admin",
+  "contact_info": {
+    "phone": "555-4040",
+    "address": {
+      "country": "UK",
+      "province": "England",
+      "city": "London"
+    }
+  },
+  "age": 41,
+  "birth_date": {
+    "$date": "1982-06-06T00:00:00.000Z"
+  },
+  "join_date": {
+    "$date": "2021-11-20T10:30:00.000Z"
+  },
+  "is_active": true,
+  "admin_info": {
+    "admin_level": 2,
+    "permissions": [
+      "manage_users",
+      "edit_articles"
+    ]
+  },
+  "createdAt": {
+    "$date": "2021-11-20T10:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2022-12-01T11:00:00.000Z"
+  }
+}]

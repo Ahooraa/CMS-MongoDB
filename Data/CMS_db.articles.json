@@ -1,0 +1,1969 @@
+[{
+  "_id": {
+    "$oid": "67ea2d85a142c7e7b2780d31"
+  },
+  "title": "Understanding Federated Learning",
+  "content": "Federated learning is a machine learning technique that allows training across multiple decentralized devices...",
+  "category_id": {
+    "$oid": "5f50c31f1c9d440000a1b2c1"
+  },
+  "authors": [
+    {
+      "$oid": "5f50c31f1c9d440000a1b2a1"
+    },
+    {
+      "$oid": "5f50c31f1c9d440000a1b2a2"
+    }
+  ],
+  "published_date": {
+    "$date": "2025-03-30T12:00:00.000Z"
+  },
+  "scheduled_date": {
+    "$date": "2025-03-28T12:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2025-03-31T08:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2025-03-25T09:00:00.000Z"
+  },
+  "status": "published",
+  "metadata": {
+    "keywords": [
+      "federated learning",
+      "privacy",
+      "machine learning"
+    ],
+    "read_time": 7,
+    "description": "An introduction to federated learning and its benefits.",
+    "url": "https://example.com/articles/federated-learning"
+  },
+  "tags": [
+    {
+      "$oid": "5f50c31f1c9d440000a1b2d1"
+    },
+    {
+      "$oid": "5f50c31f1c9d440000a1b2d2"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f3cee97bbf03420e4b22be"
+  },
+  "title": "Article Title 1",
+  "content": "This is the content for article 1. It covers diverse topics in depth.",
+  "category_id": {
+    "$oid": "67f3c04f728e587d784b611f"
+  },
+  "authors": [
+    {
+      "$oid": "67ea2b41a142c7e7b2780d28"
+    }
+  ],
+  "published_date": {
+    "$date": "2023-07-01T12:00:00.000Z"
+  },
+  "scheduled_date": {
+    "$date": "2023-07-01T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-01T16:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-07-01T10:00:00.000Z"
+  },
+  "status": "published",
+  "metadata": {
+    "keywords": [
+      "innovation",
+      "technology"
+    ],
+    "read_time": 4,
+    "description": "Short description for article 1.",
+    "url": "www.blog.com/articles/article-1"
+  },
+  "tags": [
+    {
+      "$oid": "67ea2e62a142c7e7b2780d3b"
+    },
+    {
+      "$oid": "67f3c427728e587d784b613a"
+    },
+    {
+      "$oid": "67f3c427728e587d784b613c"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f3cee97bbf03420e4b22bf"
+  },
+  "title": "Article Title 2",
+  "content": "This is the content for article 2. It covers diverse topics in depth.",
+  "category_id": {
+    "$oid": "67f3c04f728e587d784b6120"
+  },
+  "authors": [
+    {
+      "$oid": "67f3bb2f728e587d784b60ff"
+    }
+  ],
+  "published_date": {
+    "$date": "2023-07-02T12:00:00.000Z"
+  },
+  "scheduled_date": {
+    "$date": "2023-07-02T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-02T16:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-07-02T10:00:00.000Z"
+  },
+  "status": "draft",
+  "metadata": {
+    "keywords": [
+      "health",
+      "wellness"
+    ],
+    "read_time": 5,
+    "description": "Short description for article 2.",
+    "url": "www.blog.com/articles/article-2"
+  },
+  "tags": [
+    {
+      "$oid": "67f3c427728e587d784b613a"
+    },
+    {
+      "$oid": "67f3c427728e587d784b613c"
+    },
+    {
+      "$oid": "67f3c427728e587d784b613d"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f3cee97bbf03420e4b22c0"
+  },
+  "title": "Article Title 3",
+  "content": "This is the content for article 3. It covers diverse topics in depth.",
+  "category_id": {
+    "$oid": "67f3c04f728e587d784b6122"
+  },
+  "authors": [
+    {
+      "$oid": "67f3bb2f728e587d784b6100"
+    }
+  ],
+  "published_date": {
+    "$date": "2023-07-03T12:00:00.000Z"
+  },
+  "scheduled_date": {
+    "$date": "2023-07-03T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-03T16:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-07-03T10:00:00.000Z"
+  },
+  "status": "published",
+  "metadata": {
+    "keywords": [
+      "business",
+      "strategy"
+    ],
+    "read_time": 6,
+    "description": "Short description for article 3.",
+    "url": "www.blog.com/articles/article-3"
+  },
+  "tags": [
+    {
+      "$oid": "67f3c427728e587d784b613c"
+    },
+    {
+      "$oid": "67f3c427728e587d784b613d"
+    },
+    {
+      "$oid": "67f3c427728e587d784b613e"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f3cee97bbf03420e4b22c1"
+  },
+  "title": "Article Title 4",
+  "content": "This is the content for article 4. It covers diverse topics in depth.",
+  "category_id": {
+    "$oid": "67f3c04f728e587d784b6123"
+  },
+  "authors": [
+    {
+      "$oid": "67f3bb2f728e587d784b6101"
+    }
+  ],
+  "published_date": {
+    "$date": "2023-07-04T12:00:00.000Z"
+  },
+  "scheduled_date": {
+    "$date": "2023-07-04T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-04T16:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-07-04T10:00:00.000Z"
+  },
+  "status": "draft",
+  "metadata": {
+    "keywords": [
+      "entertainment",
+      "movies"
+    ],
+    "read_time": 7,
+    "description": "Short description for article 4.",
+    "url": "www.blog.com/articles/article-4"
+  },
+  "tags": [
+    {
+      "$oid": "67f3c427728e587d784b613d"
+    },
+    {
+      "$oid": "67f3c427728e587d784b613e"
+    },
+    {
+      "$oid": "67f3c427728e587d784b613f"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f3cee97bbf03420e4b22c2"
+  },
+  "title": "Article Title 5",
+  "content": "This is the content for article 5. It covers diverse topics in depth.",
+  "category_id": {
+    "$oid": "67f3c04f728e587d784b6124"
+  },
+  "authors": [
+    {
+      "$oid": "67f3bb2f728e587d784b6102"
+    }
+  ],
+  "published_date": {
+    "$date": "2023-07-05T12:00:00.000Z"
+  },
+  "scheduled_date": {
+    "$date": "2023-07-05T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-05T16:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-07-05T10:00:00.000Z"
+  },
+  "status": "published",
+  "metadata": {
+    "keywords": [
+      "sports",
+      "football"
+    ],
+    "read_time": 8,
+    "description": "Short description for article 5.",
+    "url": "www.blog.com/articles/article-5"
+  },
+  "tags": [
+    {
+      "$oid": "67f3c427728e587d784b613e"
+    },
+    {
+      "$oid": "67f3c427728e587d784b613f"
+    },
+    {
+      "$oid": "67f3c427728e587d784b6140"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f3cee97bbf03420e4b22c3"
+  },
+  "title": "Article Title 6",
+  "content": "This is the content for article 6. It covers diverse topics in depth.",
+  "category_id": {
+    "$oid": "67f3c04f728e587d784b6125"
+  },
+  "authors": [
+    {
+      "$oid": "67f3bb2f728e587d784b6103"
+    }
+  ],
+  "published_date": {
+    "$date": "2023-07-06T12:00:00.000Z"
+  },
+  "scheduled_date": {
+    "$date": "2023-07-06T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-06T16:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-07-06T10:00:00.000Z"
+  },
+  "status": "draft",
+  "metadata": {
+    "keywords": [
+      "education",
+      "learning"
+    ],
+    "read_time": 5,
+    "description": "Short description for article 6.",
+    "url": "www.blog.com/articles/article-6"
+  },
+  "tags": [
+    {
+      "$oid": "67f3c427728e587d784b613f"
+    },
+    {
+      "$oid": "67f3c427728e587d784b6140"
+    },
+    {
+      "$oid": "67f3c427728e587d784b6141"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f3cee97bbf03420e4b22c4"
+  },
+  "title": "Article Title 7",
+  "content": "This is the content for article 7. It covers diverse topics in depth.",
+  "category_id": {
+    "$oid": "67f3c04f728e587d784b6128"
+  },
+  "authors": [
+    {
+      "$oid": "67f3bb2f728e587d784b6104"
+    }
+  ],
+  "published_date": {
+    "$date": "2023-07-07T12:00:00.000Z"
+  },
+  "scheduled_date": {
+    "$date": "2023-07-07T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-07T16:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-07-07T10:00:00.000Z"
+  },
+  "status": "published",
+  "metadata": {
+    "keywords": [
+      "science",
+      "research"
+    ],
+    "read_time": 6,
+    "description": "Short description for article 7.",
+    "url": "www.blog.com/articles/article-7"
+  },
+  "tags": [
+    {
+      "$oid": "67f3c427728e587d784b6140"
+    },
+    {
+      "$oid": "67f3c427728e587d784b6141"
+    },
+    {
+      "$oid": "67f3c427728e587d784b613a"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f3cee97bbf03420e4b22c5"
+  },
+  "title": "Article Title 8",
+  "content": "This is the content for article 8. It covers diverse topics in depth.",
+  "category_id": {
+    "$oid": "67f3c27a728e587d784b612c"
+  },
+  "authors": [
+    {
+      "$oid": "67f3bb2f728e587d784b6105"
+    }
+  ],
+  "published_date": {
+    "$date": "2023-07-08T12:00:00.000Z"
+  },
+  "scheduled_date": {
+    "$date": "2023-07-08T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-08T16:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-07-08T10:00:00.000Z"
+  },
+  "status": "draft",
+  "metadata": {
+    "keywords": [
+      "machine learning",
+      "data"
+    ],
+    "read_time": 7,
+    "description": "Short description for article 8.",
+    "url": "www.blog.com/articles/article-8"
+  },
+  "tags": [
+    {
+      "$oid": "67f3c427728e587d784b613a"
+    },
+    {
+      "$oid": "67f3c427728e587d784b613c"
+    },
+    {
+      "$oid": "67f3c427728e587d784b613d"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f3cee97bbf03420e4b22c6"
+  },
+  "title": "Article Title 9",
+  "content": "This is the content for article 9. It covers diverse topics in depth.",
+  "category_id": {
+    "$oid": "67f3c27a728e587d784b612d"
+  },
+  "authors": [
+    {
+      "$oid": "67f3bb2f728e587d784b6106"
+    }
+  ],
+  "published_date": {
+    "$date": "2023-07-09T12:00:00.000Z"
+  },
+  "scheduled_date": {
+    "$date": "2023-07-09T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-09T16:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-07-09T10:00:00.000Z"
+  },
+  "status": "published",
+  "metadata": {
+    "keywords": [
+      "cybersecurity",
+      "protection"
+    ],
+    "read_time": 8,
+    "description": "Short description for article 9.",
+    "url": "www.blog.com/articles/article-9"
+  },
+  "tags": [
+    {
+      "$oid": "67f3c427728e587d784b613c"
+    },
+    {
+      "$oid": "67f3c427728e587d784b613d"
+    },
+    {
+      "$oid": "67f3c427728e587d784b613e"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f3cee97bbf03420e4b22c7"
+  },
+  "title": "Article Title 10",
+  "content": "This is the content for article 10. It covers diverse topics in depth.",
+  "category_id": {
+    "$oid": "67f3c27a728e587d784b612e"
+  },
+  "authors": [
+    {
+      "$oid": "67f3bb2f728e587d784b6107"
+    }
+  ],
+  "published_date": {
+    "$date": "2023-07-10T12:00:00.000Z"
+  },
+  "scheduled_date": {
+    "$date": "2023-07-10T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-10T16:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-07-10T10:00:00.000Z"
+  },
+  "status": "draft",
+  "metadata": {
+    "keywords": [
+      "nutrition",
+      "diet"
+    ],
+    "read_time": 6,
+    "description": "Short description for article 10.",
+    "url": "www.blog.com/articles/article-10"
+  },
+  "tags": [
+    {
+      "$oid": "67f3c427728e587d784b613d"
+    },
+    {
+      "$oid": "67f3c427728e587d784b613e"
+    },
+    {
+      "$oid": "67f3c427728e587d784b613f"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f3cee97bbf03420e4b22c8"
+  },
+  "title": "Article Title 11",
+  "content": "This is the content for article 11. It covers diverse topics in depth.",
+  "category_id": {
+    "$oid": "67f3c27a728e587d784b612f"
+  },
+  "authors": [
+    {
+      "$oid": "67ea2b41a142c7e7b2780d28"
+    }
+  ],
+  "published_date": {
+    "$date": "2023-07-11T12:00:00.000Z"
+  },
+  "scheduled_date": {
+    "$date": "2023-07-11T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-11T16:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-07-11T10:00:00.000Z"
+  },
+  "status": "published",
+  "metadata": {
+    "keywords": [
+      "mental health",
+      "wellbeing"
+    ],
+    "read_time": 7,
+    "description": "Short description for article 11.",
+    "url": "www.blog.com/articles/article-11"
+  },
+  "tags": [
+    {
+      "$oid": "67f3c427728e587d784b613e"
+    },
+    {
+      "$oid": "67f3c427728e587d784b613f"
+    },
+    {
+      "$oid": "67f3c427728e587d784b6140"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f3cee97bbf03420e4b22c9"
+  },
+  "title": "Article Title 12",
+  "content": "This is the content for article 12. It covers diverse topics in depth.",
+  "category_id": {
+    "$oid": "67f3c27a728e587d784b6130"
+  },
+  "authors": [
+    {
+      "$oid": "67f3bb2f728e587d784b60ff"
+    }
+  ],
+  "published_date": {
+    "$date": "2023-07-12T12:00:00.000Z"
+  },
+  "scheduled_date": {
+    "$date": "2023-07-12T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-12T16:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-07-12T10:00:00.000Z"
+  },
+  "status": "draft",
+  "metadata": {
+    "keywords": [
+      "startups",
+      "innovation"
+    ],
+    "read_time": 8,
+    "description": "Short description for article 12.",
+    "url": "www.blog.com/articles/article-12"
+  },
+  "tags": [
+    {
+      "$oid": "67f3c427728e587d784b613f"
+    },
+    {
+      "$oid": "67f3c427728e587d784b6140"
+    },
+    {
+      "$oid": "67f3c427728e587d784b6141"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f3cee97bbf03420e4b22ca"
+  },
+  "title": "Article Title 13",
+  "content": "This is the content for article 13. It covers diverse topics in depth.",
+  "category_id": {
+    "$oid": "67f3c27a728e587d784b6131"
+  },
+  "authors": [
+    {
+      "$oid": "67f3bb2f728e587d784b6100"
+    }
+  ],
+  "published_date": {
+    "$date": "2023-07-13T12:00:00.000Z"
+  },
+  "scheduled_date": {
+    "$date": "2023-07-13T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-13T16:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-07-13T10:00:00.000Z"
+  },
+  "status": "published",
+  "metadata": {
+    "keywords": [
+      "finance",
+      "investment"
+    ],
+    "read_time": 5,
+    "description": "Short description for article 13.",
+    "url": "www.blog.com/articles/article-13"
+  },
+  "tags": [
+    {
+      "$oid": "67f3c427728e587d784b613a"
+    },
+    {
+      "$oid": "67f3c427728e587d784b613c"
+    },
+    {
+      "$oid": "67f3c427728e587d784b613d"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f3cee97bbf03420e4b22cb"
+  },
+  "title": "Article Title 14",
+  "content": "This is the content for article 14. It covers diverse topics in depth.",
+  "category_id": {
+    "$oid": "67f3c27a728e587d784b6132"
+  },
+  "authors": [
+    {
+      "$oid": "67f3bb2f728e587d784b6101"
+    }
+  ],
+  "published_date": {
+    "$date": "2023-07-14T12:00:00.000Z"
+  },
+  "scheduled_date": {
+    "$date": "2023-07-14T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-14T16:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-07-14T10:00:00.000Z"
+  },
+  "status": "draft",
+  "metadata": {
+    "keywords": [
+      "movies",
+      "reviews"
+    ],
+    "read_time": 6,
+    "description": "Short description for article 14.",
+    "url": "www.blog.com/articles/article-14"
+  },
+  "tags": [
+    {
+      "$oid": "67f3c427728e587d784b613c"
+    },
+    {
+      "$oid": "67f3c427728e587d784b613d"
+    },
+    {
+      "$oid": "67f3c427728e587d784b613e"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f3cee97bbf03420e4b22cc"
+  },
+  "title": "Article Title 15",
+  "content": "This is the content for article 15. It covers diverse topics in depth.",
+  "category_id": {
+    "$oid": "67f3c27a728e587d784b6133"
+  },
+  "authors": [
+    {
+      "$oid": "67f3bb2f728e587d784b6102"
+    }
+  ],
+  "published_date": {
+    "$date": "2023-07-15T12:00:00.000Z"
+  },
+  "scheduled_date": {
+    "$date": "2023-07-15T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-15T16:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-07-15T10:00:00.000Z"
+  },
+  "status": "published",
+  "metadata": {
+    "keywords": [
+      "music",
+      "concerts"
+    ],
+    "read_time": 7,
+    "description": "Short description for article 15.",
+    "url": "www.blog.com/articles/article-15"
+  },
+  "tags": [
+    {
+      "$oid": "67f3c427728e587d784b613d"
+    },
+    {
+      "$oid": "67f3c427728e587d784b613e"
+    },
+    {
+      "$oid": "67f3c427728e587d784b613f"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f3cee97bbf03420e4b22cd"
+  },
+  "title": "Article Title 16",
+  "content": "This is the content for article 16. It covers diverse topics in depth.",
+  "category_id": {
+    "$oid": "67f3c27a728e587d784b6134"
+  },
+  "authors": [
+    {
+      "$oid": "67f3bb2f728e587d784b6103"
+    }
+  ],
+  "published_date": {
+    "$date": "2023-07-16T12:00:00.000Z"
+  },
+  "scheduled_date": {
+    "$date": "2023-07-16T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-16T16:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-07-16T10:00:00.000Z"
+  },
+  "status": "draft",
+  "metadata": {
+    "keywords": [
+      "basketball",
+      "sports"
+    ],
+    "read_time": 8,
+    "description": "Short description for article 16.",
+    "url": "www.blog.com/articles/article-16"
+  },
+  "tags": [
+    {
+      "$oid": "67f3c427728e587d784b613e"
+    },
+    {
+      "$oid": "67f3c427728e587d784b613f"
+    },
+    {
+      "$oid": "67f3c427728e587d784b6140"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f3cee97bbf03420e4b22ce"
+  },
+  "title": "Article Title 17",
+  "content": "This is the content for article 17. It covers diverse topics in depth.",
+  "category_id": {
+    "$oid": "67f3c27a728e587d784b6135"
+  },
+  "authors": [
+    {
+      "$oid": "67f3bb2f728e587d784b6104"
+    }
+  ],
+  "published_date": {
+    "$date": "2023-07-17T12:00:00.000Z"
+  },
+  "scheduled_date": {
+    "$date": "2023-07-17T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-17T16:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-07-17T10:00:00.000Z"
+  },
+  "status": "published",
+  "metadata": {
+    "keywords": [
+      "online learning",
+      "education"
+    ],
+    "read_time": 5,
+    "description": "Short description for article 17.",
+    "url": "www.blog.com/articles/article-17"
+  },
+  "tags": [
+    {
+      "$oid": "67f3c427728e587d784b613f"
+    },
+    {
+      "$oid": "67f3c427728e587d784b6140"
+    },
+    {
+      "$oid": "67f3c427728e587d784b6141"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f3cee97bbf03420e4b22cf"
+  },
+  "title": "Article Title 18",
+  "content": "This is the content for article 18. It covers diverse topics in depth.",
+  "category_id": {
+    "$oid": "67f3c27a728e587d784b6136"
+  },
+  "authors": [
+    {
+      "$oid": "67f3bb2f728e587d784b6105"
+    }
+  ],
+  "published_date": {
+    "$date": "2023-07-18T12:00:00.000Z"
+  },
+  "scheduled_date": {
+    "$date": "2023-07-18T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-18T16:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-07-18T10:00:00.000Z"
+  },
+  "status": "draft",
+  "metadata": {
+    "keywords": [
+      "scientific research",
+      "science"
+    ],
+    "read_time": 6,
+    "description": "Short description for article 18.",
+    "url": "www.blog.com/articles/article-18"
+  },
+  "tags": [
+    {
+      "$oid": "67f3c427728e587d784b6140"
+    },
+    {
+      "$oid": "67f3c427728e587d784b6141"
+    },
+    {
+      "$oid": "67f3c427728e587d784b613a"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f3cee97bbf03420e4b22d0"
+  },
+  "title": "Article Title 19",
+  "content": "This is the content for article 19. It covers diverse topics in depth.",
+  "category_id": {
+    "$oid": "67f3c27a728e587d784b6137"
+  },
+  "authors": [
+    {
+      "$oid": "67f3bb2f728e587d784b6106"
+    }
+  ],
+  "published_date": {
+    "$date": "2023-07-19T12:00:00.000Z"
+  },
+  "scheduled_date": {
+    "$date": "2023-07-19T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-19T16:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-07-19T10:00:00.000Z"
+  },
+  "status": "published",
+  "metadata": {
+    "keywords": [
+      "innovation",
+      "research"
+    ],
+    "read_time": 7,
+    "description": "Short description for article 19.",
+    "url": "www.blog.com/articles/article-19"
+  },
+  "tags": [
+    {
+      "$oid": "67f3c427728e587d784b613a"
+    },
+    {
+      "$oid": "67f3c427728e587d784b613c"
+    },
+    {
+      "$oid": "67f3c427728e587d784b613d"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f3cee97bbf03420e4b22d1"
+  },
+  "title": "Article Title 20",
+  "content": "This is the content for article 20. It covers diverse topics in depth.",
+  "category_id": {
+    "$oid": "67f3c04f728e587d784b611f"
+  },
+  "authors": [
+    {
+      "$oid": "67f3bb2f728e587d784b6107"
+    }
+  ],
+  "published_date": {
+    "$date": "2023-07-20T12:00:00.000Z"
+  },
+  "scheduled_date": {
+    "$date": "2023-07-20T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-20T16:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-07-20T10:00:00.000Z"
+  },
+  "status": "draft",
+  "metadata": {
+    "keywords": [
+      "technology",
+      "innovation"
+    ],
+    "read_time": 5,
+    "description": "Short description for article 20.",
+    "url": "www.blog.com/articles/article-20"
+  },
+  "tags": [
+    {
+      "$oid": "67f3c427728e587d784b613c"
+    },
+    {
+      "$oid": "67f3c427728e587d784b613d"
+    },
+    {
+      "$oid": "67f3c427728e587d784b613e"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f3cee97bbf03420e4b22d2"
+  },
+  "title": "Article Title 21",
+  "content": "This is the content for article 21. It covers diverse topics in depth.",
+  "category_id": {
+    "$oid": "67f3c04f728e587d784b6120"
+  },
+  "authors": [
+    {
+      "$oid": "67ea2b41a142c7e7b2780d28"
+    }
+  ],
+  "published_date": {
+    "$date": "2023-07-21T12:00:00.000Z"
+  },
+  "scheduled_date": {
+    "$date": "2023-07-21T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-21T16:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-07-21T10:00:00.000Z"
+  },
+  "status": "published",
+  "metadata": {
+    "keywords": [
+      "wellness",
+      "health"
+    ],
+    "read_time": 6,
+    "description": "Short description for article 21.",
+    "url": "www.blog.com/articles/article-21"
+  },
+  "tags": [
+    {
+      "$oid": "67f3c427728e587d784b613d"
+    },
+    {
+      "$oid": "67f3c427728e587d784b613e"
+    },
+    {
+      "$oid": "67f3c427728e587d784b613f"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f3cee97bbf03420e4b22d3"
+  },
+  "title": "Article Title 22",
+  "content": "This is the content for article 22. It covers diverse topics in depth.",
+  "category_id": {
+    "$oid": "67f3c04f728e587d784b6122"
+  },
+  "authors": [
+    {
+      "$oid": "67f3bb2f728e587d784b6100"
+    }
+  ],
+  "published_date": {
+    "$date": "2023-07-22T12:00:00.000Z"
+  },
+  "scheduled_date": {
+    "$date": "2023-07-22T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-22T16:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-07-22T10:00:00.000Z"
+  },
+  "status": "draft",
+  "metadata": {
+    "keywords": [
+      "strategy",
+      "leadership"
+    ],
+    "read_time": 7,
+    "description": "Short description for article 22.",
+    "url": "www.blog.com/articles/article-22"
+  },
+  "tags": [
+    {
+      "$oid": "67f3c427728e587d784b613e"
+    },
+    {
+      "$oid": "67f3c427728e587d784b613f"
+    },
+    {
+      "$oid": "67f3c427728e587d784b6140"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f3cee97bbf03420e4b22d4"
+  },
+  "title": "Article Title 23",
+  "content": "This is the content for article 23. It covers diverse topics in depth.",
+  "category_id": {
+    "$oid": "67f3c04f728e587d784b6123"
+  },
+  "authors": [
+    {
+      "$oid": "67f3bb2f728e587d784b6101"
+    }
+  ],
+  "published_date": {
+    "$date": "2023-07-23T12:00:00.000Z"
+  },
+  "scheduled_date": {
+    "$date": "2023-07-23T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-23T16:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-07-23T10:00:00.000Z"
+  },
+  "status": "published",
+  "metadata": {
+    "keywords": [
+      "reviews",
+      "entertainment"
+    ],
+    "read_time": 8,
+    "description": "Short description for article 23.",
+    "url": "www.blog.com/articles/article-23"
+  },
+  "tags": [
+    {
+      "$oid": "67f3c427728e587d784b613f"
+    },
+    {
+      "$oid": "67f3c427728e587d784b6140"
+    },
+    {
+      "$oid": "67f3c427728e587d784b6141"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f3d7b37bbf03420e4b22d6"
+  },
+  "title": "Article Title 24",
+  "content": "This is the content for article 24. It covers diverse topics in depth.",
+  "category_id": {
+    "$oid": "67f3c04f728e587d784b6124"
+  },
+  "authors": [
+    {
+      "$oid": "67f3bb2f728e587d784b6102"
+    }
+  ],
+  "published_date": {
+    "$date": "2023-07-24T12:00:00.000Z"
+  },
+  "scheduled_date": {
+    "$date": "2023-07-24T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-24T16:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-07-24T10:00:00.000Z"
+  },
+  "status": "draft",
+  "metadata": {
+    "keywords": [
+      "football",
+      "highlights"
+    ],
+    "read_time": 5,
+    "description": "Short description for article 24.",
+    "url": "www.blog.com/articles/article-24"
+  },
+  "tags": [
+    {
+      "$oid": "67f3c427728e587d784b613a"
+    },
+    {
+      "$oid": "67f3c427728e587d784b613c"
+    },
+    {
+      "$oid": "67f3c427728e587d784b613d"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f3d7b37bbf03420e4b22d7"
+  },
+  "title": "Article Title 25",
+  "content": "This is the content for article 25. It covers diverse topics in depth.",
+  "category_id": {
+    "$oid": "67f3c27a728e587d784b612f"
+  },
+  "authors": [
+    {
+      "$oid": "67f3bb2f728e587d784b6103"
+    }
+  ],
+  "published_date": {
+    "$date": "2023-07-25T12:00:00.000Z"
+  },
+  "scheduled_date": {
+    "$date": "2023-07-25T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-25T16:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-07-25T10:00:00.000Z"
+  },
+  "status": "published",
+  "metadata": {
+    "keywords": [
+      "mental health",
+      "wellness"
+    ],
+    "read_time": 6,
+    "description": "Short description for article 25.",
+    "url": "www.blog.com/articles/article-25"
+  },
+  "tags": [
+    {
+      "$oid": "67f3c427728e587d784b613b"
+    },
+    {
+      "$oid": "67f3c427728e587d784b614b"
+    },
+    {
+      "$oid": "67f3c427728e587d784b614c"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f3d7b37bbf03420e4b22d8"
+  },
+  "title": "Article Title 26",
+  "content": "This is the content for article 26. It covers diverse topics in depth.",
+  "category_id": {
+    "$oid": "67f3c27a728e587d784b6130"
+  },
+  "authors": [
+    {
+      "$oid": "67f3bb2f728e587d784b6104"
+    }
+  ],
+  "published_date": {
+    "$date": "2023-07-26T12:00:00.000Z"
+  },
+  "scheduled_date": {
+    "$date": "2023-07-26T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-26T16:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-07-26T10:00:00.000Z"
+  },
+  "status": "draft",
+  "metadata": {
+    "keywords": [
+      "finance",
+      "investment"
+    ],
+    "read_time": 7,
+    "description": "Short description for article 26.",
+    "url": "www.blog.com/articles/article-26"
+  },
+  "tags": [
+    {
+      "$oid": "67f3c427728e587d784b614b"
+    },
+    {
+      "$oid": "67f3c427728e587d784b6151"
+    },
+    {
+      "$oid": "67f3c427728e587d784b614f"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f3d7b37bbf03420e4b22d9"
+  },
+  "title": "Article Title 27",
+  "content": "This is the content for article 27. It covers diverse topics in depth.",
+  "category_id": {
+    "$oid": "67f3c27a728e587d784b6132"
+  },
+  "authors": [
+    {
+      "$oid": "67f3bb2f728e587d784b6105"
+    }
+  ],
+  "published_date": {
+    "$date": "2023-07-27T12:00:00.000Z"
+  },
+  "scheduled_date": {
+    "$date": "2023-07-27T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-27T16:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-07-27T10:00:00.000Z"
+  },
+  "status": "published",
+  "metadata": {
+    "keywords": [
+      "movies",
+      "reviews"
+    ],
+    "read_time": 8,
+    "description": "Short description for article 27.",
+    "url": "www.blog.com/articles/article-27"
+  },
+  "tags": [
+    {
+      "$oid": "67f3c427728e587d784b613d"
+    },
+    {
+      "$oid": "67f3c427728e587d784b615a"
+    },
+    {
+      "$oid": "67f3c427728e587d784b615c"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f3d7b37bbf03420e4b22da"
+  },
+  "title": "Article Title 28",
+  "content": "This is the content for article 28. It covers diverse topics in depth.",
+  "category_id": {
+    "$oid": "67f3c27a728e587d784b6133"
+  },
+  "authors": [
+    {
+      "$oid": "67f3bb2f728e587d784b6106"
+    }
+  ],
+  "published_date": {
+    "$date": "2023-07-28T12:00:00.000Z"
+  },
+  "scheduled_date": {
+    "$date": "2023-07-28T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-28T16:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-07-28T10:00:00.000Z"
+  },
+  "status": "draft",
+  "metadata": {
+    "keywords": [
+      "sports",
+      "football"
+    ],
+    "read_time": 6,
+    "description": "Short description for article 28.",
+    "url": "www.blog.com/articles/article-28"
+  },
+  "tags": [
+    {
+      "$oid": "67f3c427728e587d784b615f"
+    },
+    {
+      "$oid": "67f3c427728e587d784b6160"
+    },
+    {
+      "$oid": "67f3c427728e587d784b6163"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f3d7b37bbf03420e4b22db"
+  },
+  "title": "Article Title 29",
+  "content": "This is the content for article 29. It covers diverse topics in depth.",
+  "category_id": {
+    "$oid": "67f3c27a728e587d784b6134"
+  },
+  "authors": [
+    {
+      "$oid": "67f3bb2f728e587d784b6107"
+    }
+  ],
+  "published_date": {
+    "$date": "2023-07-29T12:00:00.000Z"
+  },
+  "scheduled_date": {
+    "$date": "2023-07-29T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-29T16:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-07-29T10:00:00.000Z"
+  },
+  "status": "published",
+  "metadata": {
+    "keywords": [
+      "video games",
+      "reviews"
+    ],
+    "read_time": 8,
+    "description": "Short description for article 29.",
+    "url": "www.blog.com/articles/article-29"
+  },
+  "tags": [
+    {
+      "$oid": "67f3c427728e587d784b6162"
+    },
+    {
+      "$oid": "67f3c427728e587d784b6161"
+    },
+    {
+      "$oid": "67f3c427728e587d784b616b"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f3d7b37bbf03420e4b22dc"
+  },
+  "title": "Article Title 30",
+  "content": "This is the content for article 30. It covers diverse topics in depth.",
+  "category_id": {
+    "$oid": "67f3c27a728e587d784b6135"
+  },
+  "authors": [
+    {
+      "$oid": "67f3bb2f728e587d784b6108"
+    }
+  ],
+  "published_date": {
+    "$date": "2023-07-30T12:00:00.000Z"
+  },
+  "scheduled_date": {
+    "$date": "2023-07-30T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-30T16:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-07-30T10:00:00.000Z"
+  },
+  "status": "draft",
+  "metadata": {
+    "keywords": [
+      "art",
+      "culture"
+    ],
+    "read_time": 7,
+    "description": "Short description for article 30.",
+    "url": "www.blog.com/articles/article-30"
+  },
+  "tags": [
+    {
+      "$oid": "67f3c427728e587d784b6160"
+    },
+    {
+      "$oid": "67f3c427728e587d784b615a"
+    },
+    {
+      "$oid": "67f3c427728e587d784b6163"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f3d7b37bbf03420e4b22dd"
+  },
+  "title": "Article Title 31",
+  "content": "This is the content for article 31. It covers diverse topics in depth.",
+  "category_id": {
+    "$oid": "67f3c27a728e587d784b6136"
+  },
+  "authors": [
+    {
+      "$oid": "67f3bb2f728e587d784b6109"
+    }
+  ],
+  "published_date": {
+    "$date": "2023-07-31T12:00:00.000Z"
+  },
+  "scheduled_date": {
+    "$date": "2023-07-31T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-07-31T16:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-07-31T10:00:00.000Z"
+  },
+  "status": "published",
+  "metadata": {
+    "keywords": [
+      "online learning",
+      "education"
+    ],
+    "read_time": 5,
+    "description": "Short description for article 31.",
+    "url": "www.blog.com/articles/article-31"
+  },
+  "tags": [
+    {
+      "$oid": "67f3c427728e587d784b6143"
+    },
+    {
+      "$oid": "67f3c427728e587d784b6141"
+    },
+    {
+      "$oid": "67f3c427728e587d784b616a"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f3d7b37bbf03420e4b22de"
+  },
+  "title": "Article Title 32",
+  "content": "This is the content for article 32. It covers diverse topics in depth.",
+  "category_id": {
+    "$oid": "67f3c27a728e587d784b6130"
+  },
+  "authors": [
+    {
+      "$oid": "67f3bb2f728e587d784b6110"
+    }
+  ],
+  "published_date": {
+    "$date": "2023-08-01T12:00:00.000Z"
+  },
+  "scheduled_date": {
+    "$date": "2023-08-01T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-08-01T16:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-08-01T10:00:00.000Z"
+  },
+  "status": "draft",
+  "metadata": {
+    "keywords": [
+      "fashion",
+      "style"
+    ],
+    "read_time": 6,
+    "description": "Short description for article 32.",
+    "url": "www.blog.com/articles/article-32"
+  },
+  "tags": [
+    {
+      "$oid": "67f3c427728e587d784b615b"
+    },
+    {
+      "$oid": "67f3c427728e587d784b6161"
+    },
+    {
+      "$oid": "67f3c427728e587d784b616b"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f3d7b37bbf03420e4b22df"
+  },
+  "title": "Article Title 33",
+  "content": "This is the content for article 33. It covers diverse topics in depth.",
+  "category_id": {
+    "$oid": "67f3c27a728e587d784b6131"
+  },
+  "authors": [
+    {
+      "$oid": "67f3bb2f728e587d784b6111"
+    }
+  ],
+  "published_date": {
+    "$date": "2023-08-02T12:00:00.000Z"
+  },
+  "scheduled_date": {
+    "$date": "2023-08-02T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-08-02T16:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-08-02T10:00:00.000Z"
+  },
+  "status": "published",
+  "metadata": {
+    "keywords": [
+      "startup",
+      "entrepreneurship"
+    ],
+    "read_time": 7,
+    "description": "Short description for article 33.",
+    "url": "www.blog.com/articles/article-33"
+  },
+  "tags": [
+    {
+      "$oid": "67f3c427728e587d784b6150"
+    },
+    {
+      "$oid": "67f3c427728e587d784b6144"
+    },
+    {
+      "$oid": "67f3c427728e587d784b6164"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f3d7b37bbf03420e4b22e0"
+  },
+  "title": "Article Title 34",
+  "content": "This is the content for article 34. It covers diverse topics in depth.",
+  "category_id": {
+    "$oid": "67f3c27a728e587d784b6132"
+  },
+  "authors": [
+    {
+      "$oid": "67f3bb2f728e587d784b6112"
+    }
+  ],
+  "published_date": {
+    "$date": "2023-08-03T12:00:00.000Z"
+  },
+  "scheduled_date": {
+    "$date": "2023-08-03T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-08-03T16:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-08-03T10:00:00.000Z"
+  },
+  "status": "draft",
+  "metadata": {
+    "keywords": [
+      "investment",
+      "growth"
+    ],
+    "read_time": 5,
+    "description": "Short description for article 34.",
+    "url": "www.blog.com/articles/article-34"
+  },
+  "tags": [
+    {
+      "$oid": "67f3c427728e587d784b614f"
+    },
+    {
+      "$oid": "67f3c427728e587d784b6155"
+    },
+    {
+      "$oid": "67f3c427728e587d784b616a"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f3d7b37bbf03420e4b22e1"
+  },
+  "title": "Article Title 35",
+  "content": "This is the content for article 35. It covers diverse topics in depth.",
+  "category_id": {
+    "$oid": "67f3c27a728e587d784b6136"
+  },
+  "authors": [
+    {
+      "$oid": "67f3bb2f728e587d784b6113"
+    }
+  ],
+  "published_date": {
+    "$date": "2023-08-04T12:00:00.000Z"
+  },
+  "scheduled_date": {
+    "$date": "2023-08-04T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-08-04T16:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-08-04T10:00:00.000Z"
+  },
+  "status": "published",
+  "metadata": {
+    "keywords": [
+      "art",
+      "culture"
+    ],
+    "read_time": 6,
+    "description": "Short description for article 35.",
+    "url": "www.blog.com/articles/article-35"
+  },
+  "tags": [
+    {
+      "$oid": "67f3c427728e587d784b615a"
+    },
+    {
+      "$oid": "67f3c427728e587d784b6160"
+    },
+    {
+      "$oid": "67f3c427728e587d784b616d"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f3d86a7bbf03420e4b22e3"
+  },
+  "title": "Article Title 36",
+  "content": "This is the content for article 36. It covers diverse topics in depth.",
+  "category_id": {
+    "$oid": "67f3c27a728e587d784b6131"
+  },
+  "authors": [
+    {
+      "$oid": "67f3bb2f728e587d784b6106"
+    }
+  ],
+  "published_date": {
+    "$date": "2023-08-05T12:00:00.000Z"
+  },
+  "scheduled_date": {
+    "$date": "2023-08-05T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-08-05T16:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-08-05T10:00:00.000Z"
+  },
+  "status": "draft",
+  "metadata": {
+    "keywords": [
+      "scientific research",
+      "data"
+    ],
+    "read_time": 7,
+    "description": "Short description for article 36.",
+    "url": "www.blog.com/articles/article-36"
+  },
+  "tags": [
+    {
+      "$oid": "67f3c427728e587d784b6160"
+    },
+    {
+      "$oid": "67f3c427728e587d784b6161"
+    },
+    {
+      "$oid": "67f3c427728e587d784b616c"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f3d86a7bbf03420e4b22e4"
+  },
+  "title": "Article Title 37",
+  "content": "This is the content for article 37. It covers diverse topics in depth.",
+  "category_id": {
+    "$oid": "67f3c27a728e587d784b6132"
+  },
+  "authors": [
+    {
+      "$oid": "67f3bb2f728e587d784b6107"
+    }
+  ],
+  "published_date": {
+    "$date": "2023-08-06T12:00:00.000Z"
+  },
+  "scheduled_date": {
+    "$date": "2023-08-06T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-08-06T16:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-08-06T10:00:00.000Z"
+  },
+  "status": "published",
+  "metadata": {
+    "keywords": [
+      "investment",
+      "growth"
+    ],
+    "read_time": 6,
+    "description": "Short description for article 37.",
+    "url": "www.blog.com/articles/article-37"
+  },
+  "tags": [
+    {
+      "$oid": "67f3c427728e587d784b6150"
+    },
+    {
+      "$oid": "67f3c427728e587d784b6151"
+    },
+    {
+      "$oid": "67f3c427728e587d784b614b"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f3d86a7bbf03420e4b22e5"
+  },
+  "title": "Article Title 38",
+  "content": "This is the content for article 38. It covers diverse topics in depth.",
+  "category_id": {
+    "$oid": "67f3c27a728e587d784b6134"
+  },
+  "authors": [
+    {
+      "$oid": "67f3bb2f728e587d784b6108"
+    }
+  ],
+  "published_date": {
+    "$date": "2023-08-07T12:00:00.000Z"
+  },
+  "scheduled_date": {
+    "$date": "2023-08-07T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-08-07T16:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-08-07T10:00:00.000Z"
+  },
+  "status": "draft",
+  "metadata": {
+    "keywords": [
+      "movies",
+      "reviews"
+    ],
+    "read_time": 5,
+    "description": "Short description for article 38.",
+    "url": "www.blog.com/articles/article-38"
+  },
+  "tags": [
+    {
+      "$oid": "67f3c427728e587d784b613a"
+    },
+    {
+      "$oid": "67f3c427728e587d784b615b"
+    },
+    {
+      "$oid": "67f3c427728e587d784b613c"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f3d86a7bbf03420e4b22e6"
+  },
+  "title": "Article Title 39",
+  "content": "This is the content for article 39. It covers diverse topics in depth.",
+  "category_id": {
+    "$oid": "67f3c27a728e587d784b6133"
+  },
+  "authors": [
+    {
+      "$oid": "67f3bb2f728e587d784b6109"
+    }
+  ],
+  "published_date": {
+    "$date": "2023-08-08T12:00:00.000Z"
+  },
+  "scheduled_date": {
+    "$date": "2023-08-08T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-08-08T16:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-08-08T10:00:00.000Z"
+  },
+  "status": "published",
+  "metadata": {
+    "keywords": [
+      "technology",
+      "innovation"
+    ],
+    "read_time": 6,
+    "description": "Short description for article 39.",
+    "url": "www.blog.com/articles/article-39"
+  },
+  "tags": [
+    {
+      "$oid": "67f3c427728e587d784b6140"
+    },
+    {
+      "$oid": "67f3c427728e587d784b615a"
+    },
+    {
+      "$oid": "67f3c427728e587d784b615f"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67f3d86a7bbf03420e4b22e7"
+  },
+  "title": "Article Title 40",
+  "content": "This is the content for article 40. It covers diverse topics in depth.",
+  "category_id": {
+    "$oid": "67f3c27a728e587d784b6135"
+  },
+  "authors": [
+    {
+      "$oid": "67f3bb2f728e587d784b6107"
+    }
+  ],
+  "published_date": {
+    "$date": "2023-08-09T12:00:00.000Z"
+  },
+  "scheduled_date": {
+    "$date": "2023-08-09T14:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-08-09T16:00:00.000Z"
+  },
+  "created_at": {
+    "$date": "2023-08-09T10:00:00.000Z"
+  },
+  "status": "draft",
+  "metadata": {
+    "keywords": [
+      "education",
+      "learning"
+    ],
+    "read_time": 7,
+    "description": "Short description for article 40.",
+    "url": "www.blog.com/articles/article-40"
+  },
+  "tags": [
+    {
+      "$oid": "67f3c427728e587d784b6161"
+    },
+    {
+      "$oid": "67f3c427728e587d784b615e"
+    },
+    {
+      "$oid": "67f3c427728e587d784b616d"
+    }
+  ]
+}]

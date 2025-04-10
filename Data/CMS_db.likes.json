@@ -1,0 +1,450 @@
+[{
+  "_id": {
+    "$oid": "67f3eb817bbf03420e4b23f6"
+  },
+  "associated_id": {
+    "$oid": "67ea2d85a142c7e7b2780d31"
+  },
+  "target_type": "article",
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b60ff"
+  },
+  "created_at": {
+    "$date": "2025-03-31T14:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3eb817bbf03420e4b23f7"
+  },
+  "associated_id": {
+    "$oid": "67f3cee97bbf03420e4b22be"
+  },
+  "target_type": "article",
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6100"
+  },
+  "created_at": {
+    "$date": "2023-07-02T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3eb817bbf03420e4b23f8"
+  },
+  "associated_id": {
+    "$oid": "67f3cee97bbf03420e4b22bf"
+  },
+  "target_type": "article",
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6101"
+  },
+  "created_at": {
+    "$date": "2023-07-03T12:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3eb817bbf03420e4b23f9"
+  },
+  "associated_id": {
+    "$oid": "67f3cee97bbf03420e4b22c0"
+  },
+  "target_type": "article",
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6102"
+  },
+  "created_at": {
+    "$date": "2023-07-04T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3eb817bbf03420e4b23fa"
+  },
+  "associated_id": {
+    "$oid": "67f3cee97bbf03420e4b22c1"
+  },
+  "target_type": "article",
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6103"
+  },
+  "created_at": {
+    "$date": "2023-07-05T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3eb817bbf03420e4b23fb"
+  },
+  "associated_id": {
+    "$oid": "67ea2ed4a142c7e7b2780d3e"
+  },
+  "target_type": "comment",
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6104"
+  },
+  "created_at": {
+    "$date": "2025-03-31T13:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3eb817bbf03420e4b23fc"
+  },
+  "associated_id": {
+    "$oid": "67ea2eeaa142c7e7b2780d40"
+  },
+  "target_type": "comment",
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6105"
+  },
+  "created_at": {
+    "$date": "2025-03-31T14:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3eb817bbf03420e4b23fd"
+  },
+  "associated_id": {
+    "$oid": "67f3e1a77bbf03420e4b2350"
+  },
+  "target_type": "comment",
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6106"
+  },
+  "created_at": {
+    "$date": "2025-03-31T15:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3eb817bbf03420e4b23fe"
+  },
+  "associated_id": {
+    "$oid": "67f3cee97bbf03420e4b22c2"
+  },
+  "target_type": "article",
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6107"
+  },
+  "created_at": {
+    "$date": "2023-07-06T14:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3eb817bbf03420e4b23ff"
+  },
+  "associated_id": {
+    "$oid": "67f3cee97bbf03420e4b22c3"
+  },
+  "target_type": "article",
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6108"
+  },
+  "created_at": {
+    "$date": "2023-07-07T10:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3eb817bbf03420e4b2400"
+  },
+  "associated_id": {
+    "$oid": "67f3cee97bbf03420e4b22c4"
+  },
+  "target_type": "article",
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6109"
+  },
+  "created_at": {
+    "$date": "2023-07-08T12:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3eb817bbf03420e4b2401"
+  },
+  "associated_id": {
+    "$oid": "67f3cee97bbf03420e4b22c5"
+  },
+  "target_type": "article",
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6110"
+  },
+  "created_at": {
+    "$date": "2023-07-09T14:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3eb817bbf03420e4b2402"
+  },
+  "associated_id": {
+    "$oid": "67f3cee97bbf03420e4b22c6"
+  },
+  "target_type": "article",
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6111"
+  },
+  "created_at": {
+    "$date": "2023-07-10T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3eb817bbf03420e4b2403"
+  },
+  "associated_id": {
+    "$oid": "67f3cee97bbf03420e4b22c7"
+  },
+  "target_type": "article",
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6112"
+  },
+  "created_at": {
+    "$date": "2023-07-11T12:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3eb817bbf03420e4b2404"
+  },
+  "associated_id": {
+    "$oid": "67f3cee97bbf03420e4b22c8"
+  },
+  "target_type": "article",
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6113"
+  },
+  "created_at": {
+    "$date": "2023-07-12T14:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3eb817bbf03420e4b2405"
+  },
+  "associated_id": {
+    "$oid": "67f3e1a77bbf03420e4b2351"
+  },
+  "target_type": "comment",
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6114"
+  },
+  "created_at": {
+    "$date": "2023-07-02T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3eb817bbf03420e4b2406"
+  },
+  "associated_id": {
+    "$oid": "67f3e1a77bbf03420e4b2352"
+  },
+  "target_type": "comment",
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6115"
+  },
+  "created_at": {
+    "$date": "2023-07-03T12:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3eb817bbf03420e4b2407"
+  },
+  "associated_id": {
+    "$oid": "67f3e1a77bbf03420e4b2353"
+  },
+  "target_type": "comment",
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6116"
+  },
+  "created_at": {
+    "$date": "2023-07-04T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3eb817bbf03420e4b2408"
+  },
+  "associated_id": {
+    "$oid": "67f3cee97bbf03420e4b22c9"
+  },
+  "target_type": "article",
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6117"
+  },
+  "created_at": {
+    "$date": "2023-07-13T12:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3eb817bbf03420e4b2409"
+  },
+  "associated_id": {
+    "$oid": "67f3cee97bbf03420e4b22ca"
+  },
+  "target_type": "article",
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6118"
+  },
+  "created_at": {
+    "$date": "2023-07-14T14:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3eb817bbf03420e4b240a"
+  },
+  "associated_id": {
+    "$oid": "67f3cee97bbf03420e4b22cb"
+  },
+  "target_type": "article",
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6119"
+  },
+  "created_at": {
+    "$date": "2023-07-15T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3eb817bbf03420e4b240b"
+  },
+  "associated_id": {
+    "$oid": "67f3cee97bbf03420e4b22cc"
+  },
+  "target_type": "article",
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6120"
+  },
+  "created_at": {
+    "$date": "2023-07-16T12:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3eb817bbf03420e4b240c"
+  },
+  "associated_id": {
+    "$oid": "67f3cee97bbf03420e4b22cd"
+  },
+  "target_type": "article",
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6121"
+  },
+  "created_at": {
+    "$date": "2023-07-17T14:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3eb817bbf03420e4b240d"
+  },
+  "associated_id": {
+    "$oid": "67f3cee97bbf03420e4b22ce"
+  },
+  "target_type": "article",
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6122"
+  },
+  "created_at": {
+    "$date": "2023-07-18T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3eb817bbf03420e4b240e"
+  },
+  "associated_id": {
+    "$oid": "67f3e2757bbf03420e4b236b"
+  },
+  "target_type": "comment",
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6123"
+  },
+  "created_at": {
+    "$date": "2025-04-01T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3eb817bbf03420e4b240f"
+  },
+  "associated_id": {
+    "$oid": "67f3cee97bbf03420e4b22d0"
+  },
+  "target_type": "article",
+  "user_id": {
+    "$oid": "67ea2b41a142c7e7b2780d28"
+  },
+  "created_at": {
+    "$date": "2023-07-20T12:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3eb817bbf03420e4b2410"
+  },
+  "associated_id": {
+    "$oid": "67f3cee97bbf03420e4b22d1"
+  },
+  "target_type": "article",
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b610a"
+  },
+  "created_at": {
+    "$date": "2023-07-21T14:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3eb817bbf03420e4b2411"
+  },
+  "associated_id": {
+    "$oid": "67f3cee97bbf03420e4b22d2"
+  },
+  "target_type": "article",
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b610b"
+  },
+  "created_at": {
+    "$date": "2023-07-22T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3eb817bbf03420e4b2412"
+  },
+  "associated_id": {
+    "$oid": "67f3cee97bbf03420e4b22d3"
+  },
+  "target_type": "article",
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b610c"
+  },
+  "created_at": {
+    "$date": "2023-07-23T12:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3eb817bbf03420e4b2413"
+  },
+  "associated_id": {
+    "$oid": "67f3cee97bbf03420e4b22d4"
+  },
+  "target_type": "article",
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b610d"
+  },
+  "created_at": {
+    "$date": "2023-07-24T14:00:00.000Z"
+  }
+}]

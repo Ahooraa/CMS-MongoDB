@@ -1,0 +1,314 @@
+[{
+  "_id": {
+    "$oid": "67f3db117bbf03420e4b22eb"
+  },
+  "file_url": "https://www.example.com/media/image1.jpg",
+  "file_type": "image/jpeg",
+  "file_size": 2000,
+  "uploaded_by": {
+    "$oid": "67ea2b41a142c7e7b2780d28"
+  },
+  "uploaded_date": {
+    "$date": "2025-04-07T12:00:00.000Z"
+  },
+  "media_type": "image",
+  "resolution": "1920x1080",
+  "aspect_ratio": "16:9"
+},
+{
+  "_id": {
+    "$oid": "67f3db117bbf03420e4b22ec"
+  },
+  "file_url": "https://www.example.com/media/video1.mp4",
+  "file_type": "video/mp4",
+  "file_size": 5000,
+  "uploaded_by": {
+    "$oid": "67f3bb2f728e587d784b60ff"
+  },
+  "uploaded_date": {
+    "$date": "2023-01-15T15:30:00.000Z"
+  },
+  "media_type": "video",
+  "duration": 120,
+  "quality": "HD"
+},
+{
+  "_id": {
+    "$oid": "67f3db117bbf03420e4b22ed"
+  },
+  "file_url": "https://www.example.com/media/image2.png",
+  "file_type": "image/png",
+  "file_size": 1500,
+  "uploaded_by": {
+    "$oid": "67f3bb2f728e587d784b6100"
+  },
+  "uploaded_date": {
+    "$date": "2022-11-10T09:00:00.000Z"
+  },
+  "media_type": "image",
+  "resolution": "1024x768"
+},
+{
+  "_id": {
+    "$oid": "67f3db117bbf03420e4b22ee"
+  },
+  "file_url": "https://www.example.com/media/video2.mp4",
+  "file_type": "video/mp4",
+  "file_size": 3000,
+  "uploaded_by": {
+    "$oid": "67f3bb2f728e587d784b6101"
+  },
+  "uploaded_date": {
+    "$date": "2021-07-21T14:20:00.000Z"
+  },
+  "media_type": "video",
+  "duration": 180,
+  "quality": "4K"
+},
+{
+  "_id": {
+    "$oid": "67f3db117bbf03420e4b22ef"
+  },
+  "file_url": "https://www.example.com/media/image3.jpg",
+  "file_type": "image/jpeg",
+  "file_size": 2500,
+  "uploaded_by": {
+    "$oid": "67f3bb2f728e587d784b6102"
+  },
+  "uploaded_date": {
+    "$date": "2023-03-01T12:00:00.000Z"
+  },
+  "media_type": "image",
+  "resolution": "2560x1440"
+},
+{
+  "_id": {
+    "$oid": "67f3db117bbf03420e4b22f0"
+  },
+  "file_url": "https://www.example.com/media/video3.mp4",
+  "file_type": "video/mp4",
+  "file_size": 6000,
+  "uploaded_by": {
+    "$oid": "67f3bb2f728e587d784b6103"
+  },
+  "uploaded_date": {
+    "$date": "2023-02-18T13:45:00.000Z"
+  },
+  "media_type": "video",
+  "duration": 90,
+  "quality": "HD"
+},
+{
+  "_id": {
+    "$oid": "67f3db117bbf03420e4b22f1"
+  },
+  "file_url": "https://www.example.com/media/image4.gif",
+  "file_type": "image/gif",
+  "file_size": 800,
+  "uploaded_by": {
+    "$oid": "67f3bb2f728e587d784b6104"
+  },
+  "uploaded_date": {
+    "$date": "2023-05-05T12:00:00.000Z"
+  },
+  "media_type": "image",
+  "resolution": "800x600"
+},
+{
+  "_id": {
+    "$oid": "67f3db117bbf03420e4b22f2"
+  },
+  "file_url": "https://www.example.com/media/video4.mp4",
+  "file_type": "video/mp4",
+  "file_size": 4000,
+  "uploaded_by": {
+    "$oid": "67f3bb2f728e587d784b6105"
+  },
+  "uploaded_date": {
+    "$date": "2020-12-01T08:00:00.000Z"
+  },
+  "media_type": "video",
+  "duration": 110,
+  "quality": "SD"
+},
+{
+  "_id": {
+    "$oid": "67f3db117bbf03420e4b22f3"
+  },
+  "file_url": "https://www.example.com/media/image5.jpg",
+  "file_type": "image/jpeg",
+  "file_size": 2200,
+  "uploaded_by": {
+    "$oid": "67f3bb2f728e587d784b6106"
+  },
+  "uploaded_date": {
+    "$date": "2023-06-12T17:30:00.000Z"
+  },
+  "media_type": "image",
+  "resolution": "1920x1080"
+},
+{
+  "_id": {
+    "$oid": "67f3db117bbf03420e4b22f4"
+  },
+  "file_url": "https://www.example.com/media/video5.mp4",
+  "file_type": "video/mp4",
+  "file_size": 5500,
+  "uploaded_by": {
+    "$oid": "67f3bb2f728e587d784b6107"
+  },
+  "uploaded_date": {
+    "$date": "2022-09-05T10:00:00.000Z"
+  },
+  "media_type": "video",
+  "duration": 150,
+  "quality": "HD"
+},
+{
+  "_id": {
+    "$oid": "67f3db117bbf03420e4b22f5"
+  },
+  "file_url": "https://www.example.com/media/image6.png",
+  "file_type": "image/png",
+  "file_size": 1300,
+  "uploaded_by": {
+    "$oid": "67f3bb2f728e587d784b6108"
+  },
+  "uploaded_date": {
+    "$date": "2021-05-18T11:25:00.000Z"
+  },
+  "media_type": "image",
+  "resolution": "1024x768"
+},
+{
+  "_id": {
+    "$oid": "67f3db117bbf03420e4b22f6"
+  },
+  "file_url": "https://www.example.com/media/video6.mp4",
+  "file_type": "video/mp4",
+  "file_size": 4200,
+  "uploaded_by": {
+    "$oid": "67f3bb2f728e587d784b6109"
+  },
+  "uploaded_date": {
+    "$date": "2023-01-10T12:45:00.000Z"
+  },
+  "media_type": "video",
+  "duration": 130,
+  "quality": "4K"
+},
+{
+  "_id": {
+    "$oid": "67f3db117bbf03420e4b22f7"
+  },
+  "file_url": "https://www.example.com/media/image7.jpg",
+  "file_type": "image/jpeg",
+  "file_size": 2800,
+  "uploaded_by": {
+    "$oid": "67f3bb2f728e587d784b610a"
+  },
+  "uploaded_date": {
+    "$date": "2023-04-07T13:30:00.000Z"
+  },
+  "media_type": "image",
+  "resolution": "2560x1440"
+},
+{
+  "_id": {
+    "$oid": "67f3db117bbf03420e4b22f8"
+  },
+  "file_url": "https://www.example.com/media/video7.mp4",
+  "file_type": "video/mp4",
+  "file_size": 7000,
+  "uploaded_by": {
+    "$oid": "67f3bb2f728e587d784b610b"
+  },
+  "uploaded_date": {
+    "$date": "2023-04-15T12:00:00.000Z"
+  },
+  "media_type": "video",
+  "duration": 160,
+  "quality": "HD"
+},
+{
+  "_id": {
+    "$oid": "67f3db117bbf03420e4b22f9"
+  },
+  "file_url": "https://www.example.com/media/image8.jpg",
+  "file_type": "image/jpeg",
+  "file_size": 2100,
+  "uploaded_by": {
+    "$oid": "67f3bb2f728e587d784b610c"
+  },
+  "uploaded_date": {
+    "$date": "2022-12-01T08:00:00.000Z"
+  },
+  "media_type": "image",
+  "resolution": "1920x1080"
+},
+{
+  "_id": {
+    "$oid": "67f3db117bbf03420e4b22fa"
+  },
+  "file_url": "https://www.example.com/media/video8.mp4",
+  "file_type": "video/mp4",
+  "file_size": 5000,
+  "uploaded_by": {
+    "$oid": "67f3bb2f728e587d784b610d"
+  },
+  "uploaded_date": {
+    "$date": "2023-03-10T11:00:00.000Z"
+  },
+  "media_type": "video",
+  "duration": 140,
+  "quality": "4K"
+},
+{
+  "_id": {
+    "$oid": "67f3db117bbf03420e4b22fb"
+  },
+  "file_url": "https://www.example.com/media/image9.jpg",
+  "file_type": "image/jpeg",
+  "file_size": 2400,
+  "uploaded_by": {
+    "$oid": "67f3bb2f728e587d784b610e"
+  },
+  "uploaded_date": {
+    "$date": "2023-02-25T14:00:00.000Z"
+  },
+  "media_type": "image",
+  "resolution": "2048x1152"
+},
+{
+  "_id": {
+    "$oid": "67f3db117bbf03420e4b22fc"
+  },
+  "file_url": "https://www.example.com/media/video9.mp4",
+  "file_type": "video/mp4",
+  "file_size": 6000,
+  "uploaded_by": {
+    "$oid": "67f3bb2f728e587d784b610f"
+  },
+  "uploaded_date": {
+    "$date": "2023-04-01T09:00:00.000Z"
+  },
+  "media_type": "video",
+  "duration": 150,
+  "quality": "SD"
+},
+{
+  "_id": {
+    "$oid": "67f3db117bbf03420e4b22fd"
+  },
+  "file_url": "https://www.example.com/media/image10.png",
+  "file_type": "image/png",
+  "file_size": 1600,
+  "uploaded_by": {
+    "$oid": "67f3bb2f728e587d784b6110"
+  },
+  "uploaded_date": {
+    "$date": "2023-01-20T10:00:00.000Z"
+  },
+  "media_type": "image",
+  "resolution": "1280x720"
+}]

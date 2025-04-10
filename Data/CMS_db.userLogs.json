@@ -1,0 +1,326 @@
+[{
+  "_id": {
+    "$oid": "67ea2c80a142c7e7b2780d2c"
+  },
+  "user_id": {
+    "$oid": "5f50c31f1c9d440000a1b2c3"
+  },
+  "action": "edit_article",
+  "target_type": "article",
+  "target_id": {
+    "$oid": "5f50c31f1c9d440000a1b2c4"
+  },
+  "datetime": {
+    "$date": "2025-03-31T10:15:00.000Z"
+  },
+  "metadata": {
+    "device": "Chrome on Windows",
+    "ip_address": "192.168.1.10"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3dcaf7bbf03420e4b233f"
+  },
+  "user_id": {
+    "$oid": "67ea2b41a142c7e7b2780d28"
+  },
+  "action": "login",
+  "target_type": "user",
+  "target_id": {
+    "$oid": "67ea2b41a142c7e7b2780d28"
+  },
+  "datetime": {
+    "$date": "2025-04-07T09:00:00.000Z"
+  },
+  "metadata": {
+    "browser": "Chrome",
+    "os": "Windows 10"
+  },
+  "device": "Desktop",
+  "ip_address": "192.168.1.2"
+},
+{
+  "_id": {
+    "$oid": "67f3dcaf7bbf03420e4b2340"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b60ff"
+  },
+  "action": "view_article",
+  "target_type": "article",
+  "target_id": {
+    "$oid": "67f3c04f728e587d784b6120"
+  },
+  "datetime": {
+    "$date": "2023-01-15T10:30:00.000Z"
+  },
+  "metadata": {
+    "title": "Health and Wellness 101"
+  },
+  "device": "Mobile",
+  "ip_address": "192.168.1.3"
+},
+{
+  "_id": {
+    "$oid": "67f3dcaf7bbf03420e4b2341"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6100"
+  },
+  "action": "comment",
+  "target_type": "article",
+  "target_id": {
+    "$oid": "67f3c04f728e587d784b6122"
+  },
+  "datetime": {
+    "$date": "2022-11-10T09:00:00.000Z"
+  },
+  "metadata": {
+    "comment": "Great article on business strategies!"
+  },
+  "device": "Tablet",
+  "ip_address": "192.168.1.4"
+},
+{
+  "_id": {
+    "$oid": "67f3dcaf7bbf03420e4b2342"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6101"
+  },
+  "action": "like",
+  "target_type": "article",
+  "target_id": {
+    "$oid": "67f3c04f728e587d784b6123"
+  },
+  "datetime": {
+    "$date": "2023-03-01T11:15:00.000Z"
+  },
+  "metadata": {},
+  "device": "Desktop",
+  "ip_address": "192.168.1.5"
+},
+{
+  "_id": {
+    "$oid": "67f3dcaf7bbf03420e4b2343"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6102"
+  },
+  "action": "share",
+  "target_type": "article",
+  "target_id": {
+    "$oid": "67f3c04f728e587d784b6125"
+  },
+  "datetime": {
+    "$date": "2023-05-05T12:00:00.000Z"
+  },
+  "metadata": {
+    "platform": "Facebook"
+  },
+  "device": "Smartphone",
+  "ip_address": "192.168.1.6"
+},
+{
+  "_id": {
+    "$oid": "67f3dcaf7bbf03420e4b2344"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6103"
+  },
+  "action": "login",
+  "target_type": "user",
+  "target_id": {
+    "$oid": "67f3bb2f728e587d784b6103"
+  },
+  "datetime": {
+    "$date": "2023-06-12T17:30:00.000Z"
+  },
+  "metadata": {
+    "browser": "Safari",
+    "os": "macOS"
+  },
+  "device": "MacBook Pro",
+  "ip_address": "192.168.1.7"
+},
+{
+  "_id": {
+    "$oid": "67f3dcaf7bbf03420e4b2345"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6104"
+  },
+  "action": "logout",
+  "target_type": "user",
+  "target_id": {
+    "$oid": "67f3bb2f728e587d784b6104"
+  },
+  "datetime": {
+    "$date": "2023-07-01T14:30:00.000Z"
+  },
+  "metadata": {},
+  "device": "Laptop",
+  "ip_address": "192.168.1.8"
+},
+{
+  "_id": {
+    "$oid": "67f3dcaf7bbf03420e4b2346"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6105"
+  },
+  "action": "like",
+  "target_type": "video",
+  "target_id": {
+    "$oid": "67f3c04f728e587d784b6122"
+  },
+  "datetime": {
+    "$date": "2023-08-01T12:00:00.000Z"
+  },
+  "metadata": {},
+  "device": "Mobile",
+  "ip_address": "192.168.1.9"
+},
+{
+  "_id": {
+    "$oid": "67f3dcaf7bbf03420e4b2347"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6106"
+  },
+  "action": "comment",
+  "target_type": "video",
+  "target_id": {
+    "$oid": "67f3c04f728e587d784b6123"
+  },
+  "datetime": {
+    "$date": "2023-08-05T14:00:00.000Z"
+  },
+  "metadata": {
+    "comment": "Excellent video, learned a lot!"
+  },
+  "device": "Tablet",
+  "ip_address": "192.168.1.10"
+},
+{
+  "_id": {
+    "$oid": "67f3dcaf7bbf03420e4b2348"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6107"
+  },
+  "action": "download",
+  "target_type": "image",
+  "target_id": {
+    "$oid": "67f3c04f728e587d784b6124"
+  },
+  "datetime": {
+    "$date": "2023-09-01T13:00:00.000Z"
+  },
+  "metadata": {},
+  "device": "Smartphone",
+  "ip_address": "192.168.1.11"
+},
+{
+  "_id": {
+    "$oid": "67f3dcaf7bbf03420e4b2349"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6108"
+  },
+  "action": "view_article",
+  "target_type": "article",
+  "target_id": {
+    "$oid": "67f3c04f728e587d784b6120"
+  },
+  "datetime": {
+    "$date": "2023-09-10T10:00:00.000Z"
+  },
+  "metadata": {
+    "title": "Health and Wellness"
+  },
+  "device": "Desktop",
+  "ip_address": "192.168.1.12"
+},
+{
+  "_id": {
+    "$oid": "67f3dcaf7bbf03420e4b234a"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6109"
+  },
+  "action": "like",
+  "target_type": "article",
+  "target_id": {
+    "$oid": "67f3c04f728e587d784b6125"
+  },
+  "datetime": {
+    "$date": "2023-10-01T16:00:00.000Z"
+  },
+  "metadata": {},
+  "device": "Tablet",
+  "ip_address": "192.168.1.13"
+},
+{
+  "_id": {
+    "$oid": "67f3dcaf7bbf03420e4b234b"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6110"
+  },
+  "action": "share",
+  "target_type": "video",
+  "target_id": {
+    "$oid": "67f3c04f728e587d784b6121"
+  },
+  "datetime": {
+    "$date": "2023-10-10T14:00:00.000Z"
+  },
+  "metadata": {
+    "platform": "Twitter"
+  },
+  "device": "Mobile",
+  "ip_address": "192.168.1.14"
+},
+{
+  "_id": {
+    "$oid": "67f3dcaf7bbf03420e4b234c"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6111"
+  },
+  "action": "login",
+  "target_type": "user",
+  "target_id": {
+    "$oid": "67f3bb2f728e587d784b6111"
+  },
+  "datetime": {
+    "$date": "2023-11-01T12:30:00.000Z"
+  },
+  "metadata": {
+    "browser": "Firefox",
+    "os": "Linux"
+  },
+  "device": "Laptop",
+  "ip_address": "192.168.1.15"
+},
+{
+  "_id": {
+    "$oid": "67f3dcaf7bbf03420e4b234d"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6112"
+  },
+  "action": "logout",
+  "target_type": "user",
+  "target_id": {
+    "$oid": "67f3bb2f728e587d784b6112"
+  },
+  "datetime": {
+    "$date": "2023-12-05T15:00:00.000Z"
+  },
+  "metadata": {},
+  "device": "Desktop",
+  "ip_address": "192.168.1.16"
+}]

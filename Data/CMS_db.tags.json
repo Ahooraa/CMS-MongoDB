@@ -1,0 +1,366 @@
+[{
+  "_id": {
+    "$oid": "67ea2e62a142c7e7b2780d3b"
+  },
+  "name": "Machine Learning"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b613a"
+  },
+  "name": "Artificial Intelligence"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b613b"
+  },
+  "name": "Machine Learning"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b613c"
+  },
+  "name": "Cloud Computing"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b613d"
+  },
+  "name": "Cybersecurity"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b613e"
+  },
+  "name": "Big Data"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b613f"
+  },
+  "name": "Blockchain"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b6140"
+  },
+  "name": "Internet of Things"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b6141"
+  },
+  "name": "Software Development"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b6142"
+  },
+  "name": "DevOps"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b6143"
+  },
+  "name": "Quantum Computing"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b6144"
+  },
+  "name": "AR/VR"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b6145"
+  },
+  "name": "Mobile Tech"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b6146"
+  },
+  "name": "Nutrition"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b6147"
+  },
+  "name": "Mental Health"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b6148"
+  },
+  "name": "Fitness"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b6149"
+  },
+  "name": "Wellness"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b614a"
+  },
+  "name": "Healthcare Innovation"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b614b"
+  },
+  "name": "Yoga"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b614c"
+  },
+  "name": "Meditation"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b614d"
+  },
+  "name": "Public Health"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b614e"
+  },
+  "name": "Medical Research"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b614f"
+  },
+  "name": "Holistic Health"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b6150"
+  },
+  "name": "Entrepreneurship"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b6151"
+  },
+  "name": "Finance"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b6152"
+  },
+  "name": "Marketing"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b6153"
+  },
+  "name": "E-commerce"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b6154"
+  },
+  "name": "Startup Culture"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b6155"
+  },
+  "name": "Investment"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b6156"
+  },
+  "name": "Leadership"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b6157"
+  },
+  "name": "Business Strategy"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b6158"
+  },
+  "name": "Human Resources"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b6159"
+  },
+  "name": "Global Trade"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b615a"
+  },
+  "name": "Movies"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b615b"
+  },
+  "name": "Music"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b615c"
+  },
+  "name": "TV Shows"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b615d"
+  },
+  "name": "Celebrity News"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b615e"
+  },
+  "name": "Streaming"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b615f"
+  },
+  "name": "Theater"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b6160"
+  },
+  "name": "Art"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b6161"
+  },
+  "name": "Pop Culture"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b6162"
+  },
+  "name": "Video Games"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b6163"
+  },
+  "name": "Comedy"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b6164"
+  },
+  "name": "Football"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b6165"
+  },
+  "name": "Basketball"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b6166"
+  },
+  "name": "Tennis"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b6167"
+  },
+  "name": "Cricket"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b6168"
+  },
+  "name": "Soccer"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b6169"
+  },
+  "name": "Baseball"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b616a"
+  },
+  "name": "Olympics"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b616b"
+  },
+  "name": "Extreme Sports"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b616c"
+  },
+  "name": "Online Learning"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b616d"
+  },
+  "name": "Scholarships"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b616e"
+  },
+  "name": "Academic Research"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b616f"
+  },
+  "name": "eLearning"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b6170"
+  },
+  "name": "Continuing Education"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b6171"
+  },
+  "name": "STEM"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b6172"
+  },
+  "name": "Physics"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b6173"
+  },
+  "name": "Biology"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b6174"
+  },
+  "name": "Chemistry"
+},
+{
+  "_id": {
+    "$oid": "67f3c427728e587d784b6175"
+  },
+  "name": "Space Exploration"
+}]

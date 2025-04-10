@@ -1,0 +1,774 @@
+[{
+  "_id": {
+    "$oid": "67ea2ed4a142c7e7b2780d3e"
+  },
+  "article_id": {
+    "$oid": "5f50c31f1c9d440000a1b2c1"
+  },
+  "user_id": {
+    "$oid": "5f50c31f1c9d440000a1b2c3"
+  },
+  "comment_text": "Great article! Really informative.",
+  "created_at": {
+    "$date": "2025-03-31T12:30:00.000Z"
+  },
+  "is_active": true
+},
+{
+  "_id": {
+    "$oid": "67ea2eeaa142c7e7b2780d40"
+  },
+  "article_id": {
+    "$oid": "5f50c31f1c9d440000a1b2c1"
+  },
+  "user_id": {
+    "$oid": "5f50c31f1c9d440000a1b2c4"
+  },
+  "comment_text": "I agree with your point.",
+  "created_at": {
+    "$date": "2025-03-31T13:00:00.000Z"
+  },
+  "is_active": true,
+  "parent_id": {
+    "$oid": "67ea2ed4a142c7e7b2780d3e"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3e1a77bbf03420e4b2350"
+  },
+  "article_id": {
+    "$oid": "67ea2d85a142c7e7b2780d31"
+  },
+  "user_id": {
+    "$oid": "67ea2b41a142c7e7b2780d28"
+  },
+  "comment_text": "This article on federated learning is fascinating! It explains the concept so well.",
+  "created_at": {
+    "$date": "2025-03-30T14:30:00.000Z"
+  },
+  "is_active": true
+},
+{
+  "_id": {
+    "$oid": "67f3e1a77bbf03420e4b2351"
+  },
+  "article_id": {
+    "$oid": "67f3cee97bbf03420e4b22be"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b60ff"
+  },
+  "comment_text": "Great overview of the topic! I found the section on privacy quite helpful.",
+  "created_at": {
+    "$date": "2023-07-01T16:20:00.000Z"
+  },
+  "is_active": true
+},
+{
+  "_id": {
+    "$oid": "67f3e1a77bbf03420e4b2352"
+  },
+  "article_id": {
+    "$oid": "67f3cee97bbf03420e4b22bf"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6100"
+  },
+  "comment_text": "Health-related content is really valuable right now. Thanks for the insights.",
+  "created_at": {
+    "$date": "2023-07-02T10:00:00.000Z"
+  },
+  "is_active": true
+},
+{
+  "_id": {
+    "$oid": "67f3e1a77bbf03420e4b2353"
+  },
+  "article_id": {
+    "$oid": "67f3cee97bbf03420e4b22c0"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6101"
+  },
+  "comment_text": "I love how the business strategies were explained. It was very practical.",
+  "created_at": {
+    "$date": "2023-07-03T14:15:00.000Z"
+  },
+  "is_active": true
+},
+{
+  "_id": {
+    "$oid": "67f3e1a77bbf03420e4b2354"
+  },
+  "article_id": {
+    "$oid": "67f3cee97bbf03420e4b22c1"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6102"
+  },
+  "comment_text": "Such an entertaining article! I’ll definitely recommend this one.",
+  "created_at": {
+    "$date": "2023-07-04T16:10:00.000Z"
+  },
+  "is_active": true
+},
+{
+  "_id": {
+    "$oid": "67f3e1a77bbf03420e4b2355"
+  },
+  "article_id": {
+    "$oid": "67f3cee97bbf03420e4b22c2"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6103"
+  },
+  "comment_text": "Good points made here! I think more people should pay attention to this sport.",
+  "created_at": {
+    "$date": "2023-07-05T11:00:00.000Z"
+  },
+  "is_active": true
+},
+{
+  "_id": {
+    "$oid": "67f3e1a77bbf03420e4b2356"
+  },
+  "article_id": {
+    "$oid": "67f3cee97bbf03420e4b22c3"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6104"
+  },
+  "comment_text": "I found the tips on education really useful. I will try applying them to my work.",
+  "created_at": {
+    "$date": "2023-07-06T12:30:00.000Z"
+  },
+  "is_active": true
+},
+{
+  "_id": {
+    "$oid": "67f3e1a77bbf03420e4b2357"
+  },
+  "article_id": {
+    "$oid": "67f3cee97bbf03420e4b22c4"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6105"
+  },
+  "comment_text": "I have a keen interest in science, and this article was very informative.",
+  "created_at": {
+    "$date": "2023-07-07T15:50:00.000Z"
+  },
+  "is_active": true
+},
+{
+  "_id": {
+    "$oid": "67f3e1a77bbf03420e4b2358"
+  },
+  "article_id": {
+    "$oid": "67f3cee97bbf03420e4b22c5"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6106"
+  },
+  "comment_text": "This article was very useful! It has some great recommendations for investment.",
+  "created_at": {
+    "$date": "2023-07-08T13:00:00.000Z"
+  },
+  "is_active": true
+},
+{
+  "_id": {
+    "$oid": "67f3e1a77bbf03420e4b2359"
+  },
+  "article_id": {
+    "$oid": "67f3cee97bbf03420e4b22c6"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6107"
+  },
+  "comment_text": "I’ve read a lot of articles, but this one stands out. Very well written!",
+  "created_at": {
+    "$date": "2023-07-09T12:00:00.000Z"
+  },
+  "is_active": true
+},
+{
+  "_id": {
+    "$oid": "67f3e1a77bbf03420e4b235a"
+  },
+  "article_id": {
+    "$oid": "67f3cee97bbf03420e4b22c7"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6108"
+  },
+  "comment_text": "Great article! Very informative and on-point. Keep it up!",
+  "created_at": {
+    "$date": "2023-07-10T14:45:00.000Z"
+  },
+  "is_active": true
+},
+{
+  "_id": {
+    "$oid": "67f3e1a77bbf03420e4b235b"
+  },
+  "article_id": {
+    "$oid": "67f3cee97bbf03420e4b22c8"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6109"
+  },
+  "comment_text": "This is exactly the kind of article I was looking for. Thanks for sharing.",
+  "created_at": {
+    "$date": "2023-07-11T15:00:00.000Z"
+  },
+  "is_active": true
+},
+{
+  "_id": {
+    "$oid": "67f3e1a77bbf03420e4b235c"
+  },
+  "article_id": {
+    "$oid": "67f3cee97bbf03420e4b22c9"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6110"
+  },
+  "comment_text": "I enjoyed reading this article! Lots of new insights.",
+  "created_at": {
+    "$date": "2023-07-12T16:10:00.000Z"
+  },
+  "is_active": true
+},
+{
+  "_id": {
+    "$oid": "67f3e1a77bbf03420e4b235d"
+  },
+  "article_id": {
+    "$oid": "67f3cee97bbf03420e4b22ca"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6111"
+  },
+  "comment_text": "This topic is really interesting. I would love to read more articles like this.",
+  "created_at": {
+    "$date": "2023-07-13T14:30:00.000Z"
+  },
+  "is_active": true
+},
+{
+  "_id": {
+    "$oid": "67f3e1a77bbf03420e4b235e"
+  },
+  "article_id": {
+    "$oid": "67f3cee97bbf03420e4b22cb"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6112"
+  },
+  "comment_text": "This article is quite comprehensive, but I wish there were more examples.",
+  "created_at": {
+    "$date": "2023-07-14T13:40:00.000Z"
+  },
+  "is_active": true
+},
+{
+  "_id": {
+    "$oid": "67f3e1a77bbf03420e4b235f"
+  },
+  "article_id": {
+    "$oid": "67f3cee97bbf03420e4b22cc"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6113"
+  },
+  "comment_text": "I found this article incredibly helpful in understanding the concept.",
+  "created_at": {
+    "$date": "2023-07-15T16:25:00.000Z"
+  },
+  "is_active": true
+},
+{
+  "_id": {
+    "$oid": "67f3e1a77bbf03420e4b2360"
+  },
+  "article_id": {
+    "$oid": "67f3cee97bbf03420e4b22cd"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6114"
+  },
+  "comment_text": "The review was good, but I would like to know more about the other aspects.",
+  "created_at": {
+    "$date": "2023-07-16T15:10:00.000Z"
+  },
+  "is_active": true
+},
+{
+  "_id": {
+    "$oid": "67f3e1a77bbf03420e4b2361"
+  },
+  "article_id": {
+    "$oid": "67f3cee97bbf03420e4b22ce"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6115"
+  },
+  "comment_text": "This is an excellent article. I appreciate the in-depth analysis.",
+  "created_at": {
+    "$date": "2023-07-17T16:20:00.000Z"
+  },
+  "is_active": true
+},
+{
+  "_id": {
+    "$oid": "67f3e1a77bbf03420e4b2362"
+  },
+  "article_id": {
+    "$oid": "67f3cee97bbf03420e4b22d0"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6116"
+  },
+  "comment_text": "I am new to this field, and this article helped me get a good start.",
+  "created_at": {
+    "$date": "2023-07-18T14:40:00.000Z"
+  },
+  "is_active": true
+},
+{
+  "_id": {
+    "$oid": "67f3e1a77bbf03420e4b2363"
+  },
+  "article_id": {
+    "$oid": "67f3cee97bbf03420e4b22d1"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6117"
+  },
+  "comment_text": "Great article! It's informative and thought-provoking.",
+  "created_at": {
+    "$date": "2023-07-19T13:50:00.000Z"
+  },
+  "is_active": true
+},
+{
+  "_id": {
+    "$oid": "67f3e1a77bbf03420e4b2364"
+  },
+  "article_id": {
+    "$oid": "67f3cee97bbf03420e4b22d2"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6118"
+  },
+  "comment_text": "I like how this article presents multiple viewpoints on the topic.",
+  "created_at": {
+    "$date": "2023-07-20T11:30:00.000Z"
+  },
+  "is_active": true
+},
+{
+  "_id": {
+    "$oid": "67f3e1a77bbf03420e4b2365"
+  },
+  "article_id": {
+    "$oid": "67f3cee97bbf03420e4b22d3"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6119"
+  },
+  "comment_text": "This topic is exactly what I’ve been searching for! Thanks for sharing.",
+  "created_at": {
+    "$date": "2023-07-21T10:00:00.000Z"
+  },
+  "is_active": true
+},
+{
+  "_id": {
+    "$oid": "67f3e1a77bbf03420e4b2366"
+  },
+  "article_id": {
+    "$oid": "67f3cee97bbf03420e4b22d4"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6120"
+  },
+  "comment_text": "I have some doubts about this content. Can you clarify further?",
+  "created_at": {
+    "$date": "2023-07-22T09:00:00.000Z"
+  },
+  "is_active": true
+},
+{
+  "_id": {
+    "$oid": "67f3e1a77bbf03420e4b2367"
+  },
+  "article_id": {
+    "$oid": "67f3cee97bbf03420e4b22d5"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6121"
+  },
+  "comment_text": "This was a very comprehensive guide. Looking forward to more articles like this.",
+  "created_at": {
+    "$date": "2023-07-23T08:00:00.000Z"
+  },
+  "is_active": true
+},
+{
+  "_id": {
+    "$oid": "67f3e1a77bbf03420e4b2368"
+  },
+  "article_id": {
+    "$oid": "67f3cee97bbf03420e4b22d6"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6122"
+  },
+  "comment_text": "I think more in-depth examples would be helpful for a clearer understanding.",
+  "created_at": {
+    "$date": "2023-07-24T14:30:00.000Z"
+  },
+  "is_active": true
+},
+{
+  "_id": {
+    "$oid": "67f3e1a77bbf03420e4b2369"
+  },
+  "article_id": {
+    "$oid": "67f3cee97bbf03420e4b22d7"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6123"
+  },
+  "comment_text": "I agree with the article's points. It's well-researched and easy to understand.",
+  "created_at": {
+    "$date": "2023-07-25T16:20:00.000Z"
+  },
+  "is_active": true
+},
+{
+  "_id": {
+    "$oid": "67f3e2757bbf03420e4b236b"
+  },
+  "article_id": {
+    "$oid": "67ea2d85a142c7e7b2780d31"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6109"
+  },
+  "comment_text": "I completely agree! This article is a great resource for learning Federated Learning.",
+  "created_at": {
+    "$date": "2025-03-31T15:00:00.000Z"
+  },
+  "is_active": true,
+  "parent_id": {
+    "$oid": "67f3e1a77bbf03420e4b2350"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3e2757bbf03420e4b236c"
+  },
+  "article_id": {
+    "$oid": "67f3cee97bbf03420e4b22be"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6100"
+  },
+  "comment_text": "The privacy section was definitely eye-opening, I learned a lot!",
+  "created_at": {
+    "$date": "2023-07-01T17:00:00.000Z"
+  },
+  "is_active": true,
+  "parent_id": {
+    "$oid": "67f3e1a77bbf03420e4b2351"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3e2757bbf03420e4b236d"
+  },
+  "article_id": {
+    "$oid": "67f3cee97bbf03420e4b22bf"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6101"
+  },
+  "comment_text": "I also agree that health-related topics are very timely and relevant.",
+  "created_at": {
+    "$date": "2023-07-02T11:30:00.000Z"
+  },
+  "is_active": true,
+  "parent_id": {
+    "$oid": "67f3e1a77bbf03420e4b2352"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3e2757bbf03420e4b236e"
+  },
+  "article_id": {
+    "$oid": "67f3cee97bbf03420e4b22c0"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6102"
+  },
+  "comment_text": "The article could benefit from some more detailed examples. But overall, very good.",
+  "created_at": {
+    "$date": "2023-07-03T15:10:00.000Z"
+  },
+  "is_active": true,
+  "parent_id": {
+    "$oid": "67f3e1a77bbf03420e4b2353"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3e2757bbf03420e4b236f"
+  },
+  "article_id": {
+    "$oid": "67f3cee97bbf03420e4b22c1"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6103"
+  },
+  "comment_text": "This article provides a really good perspective on business strategies!",
+  "created_at": {
+    "$date": "2023-07-04T17:15:00.000Z"
+  },
+  "is_active": true,
+  "parent_id": {
+    "$oid": "67f3e1a77bbf03420e4b2354"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3e2757bbf03420e4b2370"
+  },
+  "article_id": {
+    "$oid": "67f3cee97bbf03420e4b22c2"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6105"
+  },
+  "comment_text": "It’s a good article, but I think there are more areas of sports that need attention.",
+  "created_at": {
+    "$date": "2023-07-05T12:20:00.000Z"
+  },
+  "is_active": true,
+  "parent_id": {
+    "$oid": "67f3e1a77bbf03420e4b2356"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3e2757bbf03420e4b2371"
+  },
+  "article_id": {
+    "$oid": "67f3cee97bbf03420e4b22c3"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6106"
+  },
+  "comment_text": "Good tips indeed! I’d love to hear more on how we can apply these strategies in real-world education.",
+  "created_at": {
+    "$date": "2023-07-06T13:00:00.000Z"
+  },
+  "is_active": true,
+  "parent_id": {
+    "$oid": "67f3e1a77bbf03420e4b2357"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3e2757bbf03420e4b2372"
+  },
+  "article_id": {
+    "$oid": "67f3cee97bbf03420e4b22c4"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6107"
+  },
+  "comment_text": "I appreciate the breakdown of scientific theories. A great resource for beginners!",
+  "created_at": {
+    "$date": "2023-07-07T14:30:00.000Z"
+  },
+  "is_active": true,
+  "parent_id": {
+    "$oid": "67f3e1a77bbf03420e4b2358"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3e2757bbf03420e4b2373"
+  },
+  "article_id": {
+    "$oid": "67f3cee97bbf03420e4b22c5"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6108"
+  },
+  "comment_text": "This article could use more visuals, but otherwise very insightful.",
+  "created_at": {
+    "$date": "2023-07-08T11:00:00.000Z"
+  },
+  "is_active": true,
+  "parent_id": {
+    "$oid": "67f3e1a77bbf03420e4b2359"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3e2757bbf03420e4b2374"
+  },
+  "article_id": {
+    "$oid": "67f3cee97bbf03420e4b22c6"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6109"
+  },
+  "comment_text": "The information here really cleared up some of my doubts about technology trends.",
+  "created_at": {
+    "$date": "2023-07-09T13:20:00.000Z"
+  },
+  "is_active": true,
+  "parent_id": {
+    "$oid": "67f3e1a77bbf03420e4b2360"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3e2757bbf03420e4b2375"
+  },
+  "article_id": {
+    "$oid": "67f3cee97bbf03420e4b22c7"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6110"
+  },
+  "comment_text": "I found some points a bit unclear. Can you provide more examples next time?",
+  "created_at": {
+    "$date": "2023-07-10T16:00:00.000Z"
+  },
+  "is_active": true,
+  "parent_id": {
+    "$oid": "67f3e1a77bbf03420e4b2361"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3e2757bbf03420e4b2376"
+  },
+  "article_id": {
+    "$oid": "67f3cee97bbf03420e4b22c8"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6111"
+  },
+  "comment_text": "This is a great starting point, but I’d like to see some more practical use cases.",
+  "created_at": {
+    "$date": "2023-07-11T14:40:00.000Z"
+  },
+  "is_active": true,
+  "parent_id": {
+    "$oid": "67f3e1a77bbf03420e4b2362"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3e2757bbf03420e4b2377"
+  },
+  "article_id": {
+    "$oid": "67f3cee97bbf03420e4b22c9"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6112"
+  },
+  "comment_text": "I enjoyed reading your thoughts, but I feel like some sections need more depth.",
+  "created_at": {
+    "$date": "2023-07-12T15:10:00.000Z"
+  },
+  "is_active": true,
+  "parent_id": {
+    "$oid": "67f3e1a77bbf03420e4b2363"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3e2757bbf03420e4b2378"
+  },
+  "article_id": {
+    "$oid": "67f3cee97bbf03420e4b22d0"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6113"
+  },
+  "comment_text": "Nice work! This article was really well-researched.",
+  "created_at": {
+    "$date": "2023-07-13T12:30:00.000Z"
+  },
+  "is_active": true,
+  "parent_id": {
+    "$oid": "67f3e1a77bbf03420e4b2364"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3e2757bbf03420e4b2379"
+  },
+  "article_id": {
+    "$oid": "67f3cee97bbf03420e4b22d1"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6114"
+  },
+  "comment_text": "This is a well-structured article, though some minor adjustments could improve it.",
+  "created_at": {
+    "$date": "2023-07-14T10:00:00.000Z"
+  },
+  "is_active": true,
+  "parent_id": {
+    "$oid": "67f3e1a77bbf03420e4b2365"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3e2757bbf03420e4b237a"
+  },
+  "article_id": {
+    "$oid": "67f3cee97bbf03420e4b22d2"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6115"
+  },
+  "comment_text": "I agree, but it could be better if there were more practical examples in the article.",
+  "created_at": {
+    "$date": "2023-07-15T14:00:00.000Z"
+  },
+  "is_active": true,
+  "parent_id": {
+    "$oid": "67f3e1a77bbf03420e4b2366"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3e2757bbf03420e4b237b"
+  },
+  "article_id": {
+    "$oid": "67f3cee97bbf03420e4b22d3"
+  },
+  "user_id": {
+    "$oid": "67f3bb2f728e587d784b6116"
+  },
+  "comment_text": "The examples were really helpful, and I would love to see more articles like this one.",
+  "created_at": {
+    "$date": "2023-07-16T15:20:00.000Z"
+  },
+  "is_active": true,
+  "parent_id": {
+    "$oid": "67f3e1a77bbf03420e4b2367"
+  }
+}]

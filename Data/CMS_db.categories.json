@@ -1,0 +1,159 @@
+[{
+  "_id": {
+    "$oid": "67ea2dffa142c7e7b2780d38"
+  },
+  "name": "Artificial Intelligence",
+  "parent_id": {
+    "$oid": "67f3c04f728e587d784b611f"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3c04f728e587d784b611f"
+  },
+  "name": "Technology"
+},
+{
+  "_id": {
+    "$oid": "67f3c04f728e587d784b6120"
+  },
+  "name": "Health"
+},
+{
+  "_id": {
+    "$oid": "67f3c04f728e587d784b6122"
+  },
+  "name": "Business"
+},
+{
+  "_id": {
+    "$oid": "67f3c04f728e587d784b6123"
+  },
+  "name": "Entertainment"
+},
+{
+  "_id": {
+    "$oid": "67f3c04f728e587d784b6124"
+  },
+  "name": "Sports"
+},
+{
+  "_id": {
+    "$oid": "67f3c04f728e587d784b6125"
+  },
+  "name": "Education"
+},
+{
+  "_id": {
+    "$oid": "67f3c04f728e587d784b6128"
+  },
+  "name": "Science"
+},
+{
+  "_id": {
+    "$oid": "67f3c27a728e587d784b612c"
+  },
+  "name": "Machine Learning",
+  "parent_id": {
+    "$oid": "67f3c04f728e587d784b611f"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3c27a728e587d784b612d"
+  },
+  "name": "Cybersecurity",
+  "parent_id": {
+    "$oid": "67f3c04f728e587d784b611f"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3c27a728e587d784b612e"
+  },
+  "name": "Nutrition",
+  "parent_id": {
+    "$oid": "67f3c04f728e587d784b6120"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3c27a728e587d784b612f"
+  },
+  "name": "Mental Health",
+  "parent_id": {
+    "$oid": "67f3c04f728e587d784b6120"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3c27a728e587d784b6130"
+  },
+  "name": "Startups",
+  "parent_id": {
+    "$oid": "67f3c04f728e587d784b6122"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3c27a728e587d784b6131"
+  },
+  "name": "Finance",
+  "parent_id": {
+    "$oid": "67f3c04f728e587d784b6122"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3c27a728e587d784b6132"
+  },
+  "name": "Movies",
+  "parent_id": {
+    "$oid": "67f3c04f728e587d784b6123"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3c27a728e587d784b6133"
+  },
+  "name": "Music",
+  "parent_id": {
+    "$oid": "67f3c04f728e587d784b6123"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3c27a728e587d784b6134"
+  },
+  "name": "Football",
+  "parent_id": {
+    "$oid": "67f3c04f728e587d784b6124"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3c27a728e587d784b6135"
+  },
+  "name": "Basketball",
+  "parent_id": {
+    "$oid": "67f3c04f728e587d784b6124"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3c27a728e587d784b6136"
+  },
+  "name": "Online Learning",
+  "parent_id": {
+    "$oid": "67f3c04f728e587d784b6125"
+  }
+},
+{
+  "_id": {
+    "$oid": "67f3c27a728e587d784b6137"
+  },
+  "name": "Scientific Research",
+  "parent_id": {
+    "$oid": "67f3c04f728e587d784b6128"
+  }
+}]
