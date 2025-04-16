@@ -1,4 +1,4 @@
-# 📘 MongoDB Document-Based System for Article & Social Interaction Platform
+# 📘 MongoDB Document-Based System for CMS
 
 ## 📌 Overview
 This project implements a document-oriented MongoDB schema to support a multi-functional platform where users can publish articles, interact with content (comments, likes), and manage media and categorization. The system is optimized for flexibility, scalability, and rich data relationships without relying on a relational database.
