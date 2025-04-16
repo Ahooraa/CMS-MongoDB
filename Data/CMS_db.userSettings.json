@@ -1,0 +1,122 @@
+[
+    {
+      "user_id": { "$oid": "67ea2b41a142c7e7b2780d28" },
+      "dark_mode": true,
+      "language": "fa",
+      "email_notifications": true,
+      "font_size": "medium",
+      "timezone": "Asia/Tehran"
+    },
+    {
+      "user_id": { "$oid": "67f3bb2f728e587d784b6106" },
+      "dark_mode": false,
+      "language": "en",
+      "email_notifications": false,
+      "font_size": "small",
+      "timezone": "UTC"
+    },
+    {
+      "user_id": { "$oid": "67f3bb2f728e587d784b6108" },
+      "dark_mode": true,
+      "language": "fa",
+      "email_notifications": false,
+      "font_size": "large",
+      "timezone": "Asia/Tehran"
+    },
+    {
+      "user_id": { "$oid": "67f3bb2f728e587d784b6109" },
+      "dark_mode": false,
+      "language": "en",
+      "email_notifications": true,
+      "font_size": "medium",
+      "timezone": "Europe/London"
+    },
+    {
+      "user_id": { "$oid": "67f3bb2f728e587d784b6117" },
+      "dark_mode": true,
+      "language": "fa",
+      "email_notifications": true,
+      "font_size": "medium",
+      "timezone": "Asia/Tehran"
+    },
+    {
+      "user_id": { "$oid": "67f3bb2f728e587d784b611b" },
+      "dark_mode": true,
+      "language": "en",
+      "email_notifications": false,
+      "font_size": "large",
+      "timezone": "America/New_York"
+    },
+    {
+      "user_id": { "$oid": "67f3bb2f728e587d784b6103" },
+      "dark_mode": false,
+      "language": "de",
+      "email_notifications": true,
+      "font_size": "small",
+      "timezone": "Europe/Berlin"
+    },
+    {
+      "user_id": { "$oid": "67f3bb2f728e587d784b610b" },
+      "dark_mode": false,
+      "language": "fa",
+      "email_notifications": true,
+      "font_size": "medium",
+      "timezone": "Asia/Tehran"
+    },
+    {
+      "user_id": { "$oid": "67f3bb2f728e587d784b6115" },
+      "dark_mode": true,
+      "language": "en",
+      "email_notifications": false,
+      "font_size": "large",
+      "timezone": "Asia/Dubai"
+    },
+    {
+      "user_id": { "$oid": "67f3bb2f728e587d784b6111" },
+      "dark_mode": false,
+      "language": "en",
+      "email_notifications": true,
+      "font_size": "medium",
+      "timezone": "America/Los_Angeles"
+    },
+    {
+      "user_id": { "$oid": "67f3bb2f728e587d784b60ff" },
+      "dark_mode": true,
+      "language": "fa",
+      "email_notifications": true,
+      "font_size": "small",
+      "timezone": "Asia/Tehran"
+    },
+    {
+      "user_id": { "$oid": "67f3bb2f728e587d784b6116" },
+      "dark_mode": false,
+      "language": "en",
+      "email_notifications": false,
+      "font_size": "medium",
+      "timezone": "Europe/Paris"
+    },
+    {
+      "user_id": { "$oid": "67f3bb2f728e587d784b6104" },
+      "dark_mode": true,
+      "language": "de",
+      "email_notifications": true,
+      "font_size": "large",
+      "timezone": "Europe/Vienna"
+    },
+    {
+      "user_id": { "$oid": "67f3bb2f728e587d784b610c" },
+      "dark_mode": false,
+      "language": "en",
+      "email_notifications": true,
+      "font_size": "medium",
+      "timezone": "Asia/Singapore"
+    },
+    {
+      "user_id": { "$oid": "67f3bb2f728e587d784b6101" },
+      "dark_mode": true,
+      "language": "fa",
+      "email_notifications": false,
+      "font_size": "small",
+      "timezone": "Asia/Tehran"
+    }
+  ]  
