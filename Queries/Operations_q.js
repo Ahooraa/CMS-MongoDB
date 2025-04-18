@@ -1,19 +1,19 @@
 // 1. Selection: Find all active users
 db.users.find({ is_active: true });
 
-// 2. Projection: Get only fullname and email from users
-db.users.find({}, { fullname: 1, email: 1, _id: 0 });
+// 2. Projection: Get only username and email from users
+db.users.find({}, { projection: { username: 1, email: 1, _id: 0 } });
 
-// 3. Rename: Rename 'fullname' field to 'username' in projection
+// 3. Rename: Rename 'username' field to 'fullname' in projection
 db.users.aggregate([
     {
       $project: {
-        username: "$fullname",
+        fullname: "$username",
         email: 1,
         _id: 0
       }
     }
-  ]);
+]);
 
 // 4. Union: Combine active users and users who have Persian language in userSettings
 db.users.aggregate([
@@ -21,7 +21,7 @@ db.users.aggregate([
     {
       $project: {
         _id: 1,
-        fullname: 1,
+        username: 1,
         source: { $literal: "active_users" }
       }
     },
@@ -42,14 +42,14 @@ db.users.aggregate([
           {
             $project: {
               _id: "$user_id",
-              fullname: "$user_info.fullname",
+              username: "$user_info.username",
               source: { $literal: "fa_language_users" }
             }
           }
         ]
       }
     }
-  ]);  
+]);
 
 // 5. Cartesian Product: Combine each user with all tags (no join condition = cartesian product)
 db.users.aggregate([
@@ -60,7 +60,7 @@ db.users.aggregate([
         as: "all_tags"
       }
     }
-  ]);
+]);
 
 // 6. Difference: Find users who do NOT have a corresponding profile in userSettings
 db.users.aggregate([
@@ -73,4 +73,4 @@ db.users.aggregate([
       }
     },
     { $match: { settings: { $eq: [] } } }
-  ]);  
+]);
