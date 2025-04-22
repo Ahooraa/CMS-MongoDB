@@ -30,19 +30,14 @@ async function runQueries() {
     console.log('Fields returned in first document:', query2[0] ? Object.keys(query2[0]) : 'No results');
     console.log('Sample result (first document, if any):', query2[0] || 'No results');
 
-    // Query 3: Rename: Rename 'username' field to 'username' in projection
-    console.log('\n=== Running Query 3: Rename Username Field to fullname in Projection ===');
-    const query3 = await db.collection('users').aggregate([
-      {
-        $project: {
-          fullname: '$username', // Renamed username to fullname
-          email: 1,
-          _id: 0
-        }
-      }
-    ]).toArray();
-    console.log('Results:', query3.length, 'documents found');
-    console.log('Sample result (first document, if any):', query3[0] || 'No results');
+    //3. Rename: Rename 'age' field to 'user_age' (Updating the field name in the database)
+    console.log('\n=== Running Query 3: Rename "age" Field to "user_age" ===');
+    single_user= await db.collection("users").findOne({username:"johndoe"}, {projection:{username:1,age:1,user_age:1}});
+    console.log(single_user);
+    db.collection("users").updateOne({username:"johndoe"}, {$rename:{"age":"user_age"}});    
+    console.log('Renamed field "age" to "user_age" for user "johndoe"');
+    first_three_activeUsers = await db.collection('users').find({ is_active: true },{projection:{username:1,age:1,user_age:1}}).limit(3).toArray();
+    console.log('first three active users:', first_three_activeUsers|| 'No results');
 
     // Query 4: Union: Combine active users and users who have Persian language in userSettings
     console.log('\n=== Running Query 4: Combine Active Users and Users with Persian Language in userSettings ===');
@@ -86,18 +81,44 @@ async function runQueries() {
     console.log('Sample result (first document, if any):', query4[0] || 'No results');
 
     // Query 5: Cartesian Product: Combine each user with all tags
-    console.log('\n=== Running Query 5: Combine Each User with All Tags (Cartesian Product) ===');
-    const query5 = await db.collection('users').aggregate([
+    console.log('\n=== Running Query 5: Cartesian Product of Media and Categories ===');
+    console.log('number of documents in media:', await db.collection('media').countDocuments());
+    console.log('number of documents in categories:', await db.collection('categories').countDocuments());
+    //5. Cartesian Product: Combine each media with all categories (no join condition = cartesian product)
+    const cp_result = await db.collection('media').aggregate([
       {
+        // Perform a lookup to join with categories, using a pipeline to include all categories
         $lookup: {
-          from: 'tags',
-          pipeline: [],
-          as: 'all_tags'
+          from: 'categories',
+          let: {}, // No variables needed since no matching condition
+          pipeline: [
+            {
+              $match: {} // Match all documents in categories (no condition)
+            }
+          ],
+          as: 'category'
+        }
+      },
+      {
+        // Unwind the category array to create a document for each media-category pair
+        $unwind: '$category'
+      },
+      {
+        // Project the desired fields from both collections
+        $project: {
+          media_id: '$_id',
+          file_url: 1,
+          media_type: 1,
+          category_id: '$category._id',
+          category_name: '$category.name',
+          parent_id: '$category.parent_id',
+          _id: 0 // Exclude the _id field from the final output
         }
       }
     ]).toArray();
-    console.log('Results:', query5.length, 'documents found');
-    console.log('Sample result (first document, if any):', query5[0] || 'No results');
+    console.log('Results:', cp_result.length, 'documents found as a cartesian product of media and categories');
+    // first 3 results
+    console.log('Sample result (first 3 documents):', cp_result.slice(0, 3) || 'No results');
 
     // Query 6: Difference: Find users who do NOT have a corresponding profile in userSettings
     console.log('\n=== Running Query 6: Find Users Who Do NOT Have a Corresponding Profile in userSettings ===');
